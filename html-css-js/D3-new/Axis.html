@@ -1,0 +1,40 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<script src = 'd3.js'></script>
+</head>
+
+<body>
+
+<script>
+var data = [[5, 20], [480, 90], [250, 50], [100, 33], [330, 95],[410, 12], [475, 44], [25, 67], [85, 21], [220, 88] ];
+var scale = d3.scale.linear()
+			.domain([0,500])
+			.range([0,400]);
+var axis=d3.svg.axis().ticks(5).scale(scale);
+
+var canvas = d3.select("body")
+			.append("svg")
+			.attr("width",500)
+			.attr("height",500)
+			.append("g")
+			.attr("transform","translate(10,0)");
+		
+var bars_ver = canvas.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx",function(d){return scale(d[0]);})
+			.attr("cy",function(d){return 200-scale(d[1]);})
+			.attr("r",function(d){return 3;});
+		 
+var label=canvas.selectAll("text").data(data).enter().append("text").text(function(d){return d[0]+","+d[1];}).attr("x",function(d){return scale(d[0]);}).attr("y",function(d){return 200-scale(d[1]);});			
+
+canvas.append("g").attr("transform","translate(0,230)").call(axis);
+</script>
+
+
+</body>
+</html>
+
+<!--//Here the whole canvas is a group. Transforming it will shift the whole canvas including the axis.-->

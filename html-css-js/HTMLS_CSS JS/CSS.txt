@@ -1,0 +1,443 @@
+Three Ways to Insert CSS
+There are three ways of inserting a style sheet:
+
+External style sheet
+Internal style sheet
+Inline style
+
+Cascading Order
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+
+1)Linking html file with css.
+<!DOCTYPE html>
+<html>
+
+	<head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+2) selector1,[selector2,selector3,....] {
+    property: value;  //value not in " "
+}
+Ex:p {
+    color: red; 
+    text-align: center;
+
+}
+
+3)CSS color:
+Ex:p {
+    color: red; or color:rgb(255, 0, 0) or  color:#ff0000
+}
+
+4)Comments :/*  */.
+
+5)CSS background
+p {
+    background-color: yellow;
+    background-image: url("paper.gif");//By default, the image is repeated so it covers the entire element.\
+    background-repeat: repeat-x;//repeats the image horizontally
+    background-repeat: no-repeat;
+    background-position: right top;//
+The position of the image is specified by the background-position property:
+    background-attachment: fixed;//To specify that the background image should be fixed (will not scroll with the rest of the page)
+}
+
+6)CSS border and outlines
+The border property is a shorthand property for the following individual border properties:
+
+border-width
+border-style (required)
+border-color
+
+The outline property is a shorthand property for the following individual outline properties:
+
+outline-width
+outline-style (required)
+outline-color
+
+p {
+    border: 1px solid black;
+    outline: 5px dotted red;
+}
+Check w3 schools for more details:
+http://www.w3schools.com/css/css_border.asp
+http://www.w3schools.com/css/css_outline.asp
+
+7)CSS margins
+
+The CSS margin properties are used to generate space around elements.
+
+Ex:p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+or
+
+p {
+    margin: 100px 150px 100px 80px;
+}
+
+8)CSS padding:The padding properties set the size of the white space between the element content and the element border.
+
+Ex:
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+or 
+
+p {
+    padding: 50px 30px 50px 80px;
+}
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+10)CSS Text
+
+h1 {
+    text-align: center;
+    color: green;
+    text-decoration: none; //removes underline from hyperlink or   text-decoration: line-through;
+    text-transform: uppercase;  or lowercase; or capitalize;
+    text-indent: 50px;//The text-indent property is used to specify the indentation of the first line of a text:
+    letter-spacing: 3px;//specify the space between the characters in a text.
+    line-height: 0.8;//specify the space between lines
+    direction: rtl;//change the text direction of an element:
+    word-spacing: 10px;// specify the space between the words in a text.
+}
+
+11)CSS Font
+font	Sets all the font properties in one declaration
+font-family	Specifies the font family for text
+font-size	Specifies the font size of text
+font-style	Specifies the font style for text
+font-variant	Specifies whether or not a text should be displayed in a small-caps font
+font-weight	Specifies the weight of a font
+Check for more details: http://www.w3schools.com/css/css_font.asp
+
+We can specify the font size in em.
+The font-size unit em is a relative measure: one em is equal to the default font size on whatever screen the user is using.
+
+12) CSS links
+
+The four links states of a link are:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+a:link{
+    color: green;
+    text-decoration: none;
+}
+
+13)CSS Lists
+
+When using the shorthand property, the order of the property values are:
+
+list-style-type (if a list-style-image is specified, the value of this property will be displayed if the image for some reason cannot be displayed)
+list-style-position (specifies whether the list-item markers should appear inside or outside the content flow)
+list-style-image (specifies an image as the list item marker)
+
+Ex:ul {
+    list-style: square inside url("sqpurple.gif");
+}
+
+Styling lists with color:
+http://www.w3schools.com/css/tryit.asp?filename=trycss_list-style_colors
+
+14)CSS Tables
+http://www.w3schools.com/css/css_table.asp
+
+15)CSS Position
+The position property specifies the type of positioning method used for an element.Elements are then positioned using the top, bottom, left, and right properties.
+
+There are four different position values:
+
+static
+relative
+fixed
+absolute
+
+We can also overlap elements.
+
+http://www.w3schools.com/css/css_positioning.asp
+
+We can also use this concept to position text on image.
+
+15)CSS Height and Width
+
+http://www.w3schools.com/css/css_dimension.asp
+The problem with the <div> above occurs when the browser window is smaller than the width of the element (500px). The browser then adds a horizontal scrollbar to the 
+page.
+
+Using max-width instead, in this situation, will improve the browser's handling of small windows.
+
+16)CSS Display
+http://www.w3schools.com/css/css_display_visibility.asp
+
+The display property specifies if/how an element is displayed.
+
+17)CSS Float
+**Left
+The float property specifies whether or not an element should float.
+
+The clear property is used to control the behavior of floating elements.
+
+http://www.w3schools.com/css/css_float.asp
+
+18)CSS Forms
+http://www.w3schools.com/css/css_form.asp
+
+19)CSS Dropdowns
+http://www.w3schools.com/css/css_dropdowns.asp
+
+20)CSS Navigation bars
+http://www.w3schools.com/css/css_navbar.asp
+
+21)CSS Tooltips
+http://www.w3schools.com/css/css_tooltip.asp
+
+22)CSS Inline block
+The inline-block Value
+It has been possible for a long time to create a grid of boxes that fills the browser width and wraps nicely (when the browser is resized), by using the float 
+property.
+
+However, the inline-block value of the display property makes this even easier.
+
+inline-block elements are like inline elements but they can have a width and a height.
+
+23)CSS Combinators:A combinator is something that explains the relationship between the selectors.
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+See http://www.w3schools.com/css/css_combinators.asp for more examples.
+
+24)Pseudo-classes
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+selector:pseudo-class {
+    property:value;
+}
+
+http://www.w3schools.com/css/css_pseudo_classes.asp
+
+25)CSS Pseudo-Elements
+
+A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an element
+
+selector::pseudo-element {
+    property:value;
+}
+
+Check this out: http://www.w3schools.com/css/css_pseudo_elements.asp
+
+26)In CSS, several properties can be used to align elements horizontally.
+
+http://www.w3schools.com/css/css_align.asp
+
+27) CSS counters
+
+CSS counters are like "variables". The variable values can be incremented by CSS rules (which will track how many times they are used).
+See:
+http://www.w3schools.com/css/css_counters.asp
+
+
+28)CSS Image Gallery
+
+CSS can be used to create an image gallery
+
+http://www.w3schools.com/css/css_image_gallery.asp
+
+29)CSS Image transparency
+
+http://www.w3schools.com/css/css_image_transparency.asp
+
+30)CSS Image Sprites
+
+An image sprite is a collection of images put into a single image.
+
+A web page with many images can take a long time to load and generates multiple server requests.
+
+Using image sprites will reduce the number of server requests and save bandwidth.
+
+31)CSS Attribute Selectors
+
+It is possible to style HTML elements that have specific attributes or attribute values.
+
+See:http://www.w3schools.com/css/css_attribute_selectors.asp
+
+32)CSS Tooltip
+
+http://www.w3schools.com/css/css_tooltip.asp
+
+FROM CODEACADMEY
+
+5)Backup values(If a particular value is not available)
+h1{
+font-family:Times ,serif;
+}
+
+6)We can also font, color, size, text decoration(remove underline) of a link.
+
+7)If we want to change ht ecolor of h3 nested in 3 divs:
+div div div h3{
+}
+
+
+*:There's also a very special selector you can use to apply CSS styling to every element on the page.
+
+9)Classes in css:
+
+.fancy{
+font-family:cursive;
+color:#0000CD;
+}
+
+<p class="fancy">Hey There</p> 
+
+If we want only p type elements to be affected by the class fancy.
+Use p.fancy{
+
+
+}
+10)ids:exactly one element that should receive a certain kind of styling.
+
+#fancy{
+font-family:cursive;
+color:#0000CD;
+}
+
+<p id="fancy">Hey There</p> 
+
+##11)A pseudo-class selector is a way of accessing HTML items that aren't part of the document tree.
+
+Another useful pseudo-class selector is first-child. It's used to apply styling to only the elements that are the first children of their parents. For instance:
+
+p:first-child {
+    color: red;
+}
+
+You can actually select any child of an element after the first child with the pseudo-class selector nth-child; you just add the child's number in parentheses after
+the pseudo-class selector. For example,
+
+p:nth-child(2) {
+    color: red;
+}
+
+12)Overwriting of properties.
+<p class="first">ABC </p>
+
+p{
+}
+
+.first{
+}
+
+If a property is in p and not in first ,then its value for ABC will be acc. to the property in p
+If a property is in first and p, first will override that property.
+
+13)display property.
+We'll learn about four possible values.
+
+block: This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.
+
+inline-block: This makes the element a block box, but will allow other elements to sit next to it on the same line.
+
+inline: This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs 
+(not the whole line).
+
+none: This makes the element and its content disappear from the page entirely!
+
+Example:
+div{
+display:block;
+}
+
+14)Margin:
+Adjusting our margins not only moves our element relative to other elements on the page, but also relative to the "walls" of the HTML document.
+For instance, if we take an HTML element with a specific width (such as our <div> in the editor) and set its margin to auto, this tells the document to automatically 
+put equal left and right margins on our element, centering it on the page.
+Margin top, right, bottom, left
+If you want to specify a particular margin, you can do it like this:
+
+margin-top: /*some value*/
+margin-right: /*some value*/
+margin-bottom: /*some value*/
+margin-left: /*some-value*/
+You can also set an element's margins all at once: you just start from the top margin and go around clockwise (going from top to right to bottom to left). 
+For instance,
+
+margin: 1px 2px 3px 4px;
+
+It can also be negative.
+
+15)Padding is the space between your border and your innermost layer.
+Padding can be set in two ways, just like your margins. You can either select them individually, like this:
+
+padding-top: /*some value*/
+padding-right: /*some value*/
+padding-bottom: /*some value*/
+padding-left: /*some-value*/
+Or select them all in one declaration, like this:
+
+padding: value value value value;
+You should also know that if you want your padding to be the same for all four sides, you can declare that value only once. padding: 10px will give your HTML element
+10 pixels of padding on all sides.
+
+It can also be negative.
+
+16)Float:
+One way is to use floats. When you float an element on the page, you're telling the webpage: "I'm about to tell you where to put this element, but you have to put 
+it into the flow of other elements."
+
+17)Clear
+If you tell an element to clear: left, it will immediately move below any floating elements on the left side of the page; it can also clear elements on the right. 
+If you tell it to clear: both, it will get out of the way of elements floating on the left and right!
+
+The syntax is what you're used to:
+
+element {
+    clear: /*right, left, or both*/
+}
+
+18)If you don't specify an element's positioning type, it defaults to static. This just means "where the element would normally go." If you don't tell an element how
+to  position itself, it just plunks itself down in the document.
+
+The first type of positioning is absolute positioning. When an element is set to position: absolute, it's then positioned in relation to the first parent element it
+has that doesn't have position: static. If there's no such element, the element with position: absolute gets positioned relative to <html>.
+
+Relative positioning is more straightforward: it tells the element to move relative to where it would have landed if it just had the default static positioning.
+
+Finally, fixed positioning anchors an element to the browser window\97you can think of it as gluing the element to the screen. If you scroll up and down, the fixed 
+element stays put even as other elements scroll past.
+

@@ -1,0 +1,6 @@
+2)(22%7)-(3%7)=-2;
+(22-3)%7=5;
+
+Note we have to +-7 to make the result eqwt. to our requirement.
+
+3)

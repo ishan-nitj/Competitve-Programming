@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	"My Webpage"
+	</title>
+</head>
+<body >
+	<h1>Heading 1</h1>         <!-- comment -->
+	<p >Paragraph</p>
+	<a href="http://www.codecademy.com/">Link</a>
+	<img src="https://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" />
+	<ol>
+        	<li >1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ol>
+</body>	
+</html>

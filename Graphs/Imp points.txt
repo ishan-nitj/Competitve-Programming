@@ -1,0 +1,70 @@
+Donot try to dereference a null pointer.
+[)
+
+container.end() is pointer to one past the end.
+
+Use memset to set values 0 or -1.(Even avoid with -1)
+memset is an operation that sets bits.
+
+If you want to set a value use a for-loop.
+
+Consider a 4-bit-integer:
+
+Its value is 1 when the bits are 0001 but memset sets it to 1111
+
+Representing a sequence in terms of bit values. Whether the term is there (1) or not(0).
+
+
+use abs() for ints and fabs() for doubles
+
+getchar() while i/p array of characters.
+
+use of ceil and floor.
+
+conditions in if.
+
+inputting the numbers until you hit a newline character.
+
+linear time doest not mean only one traversal.
+linear time o(2n) o(k+n) etc.
+
+to declare a global array w/ size specified in main use a vector.
+
+mp<ll,vector<ll> >mp;
+
+priority queue & binary search.
+
+taking excessive % may have impact of time complexity of algo.
+
+horners rul.
+
+dp-incl exc,reverse problem reasd.
+
+sheldon cooper technique
+
+structure instead of tuple
+
+array should not go out of the bounds or excessing an empty container
+
+variable name clash
+
+double me ans :exponential
+
+sorting of a=vector of string takes O(n*k*log(n)) time where k is the length of longest string 
+
+Global array purana data remove
+
+cout.precision(10) std::fixed
+
+long double
+
+unordered set
+
+to input a string with spaces using cin.getline . note here c style string is to be used.
+
+sorting and doing in nlgn time
+
+binary search 1 important question from codemonk:Monk's Encounter with Polynomial	
+
+s.size() is unsingned integer .so s.size()-100 may give wrong value if its < 100. 
+

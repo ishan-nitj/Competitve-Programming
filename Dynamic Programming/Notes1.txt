@@ -1,0 +1,14 @@
+1)Let's take a simple example: Problem: Given an array of integers of size n.We've to answer Q queries.
+Each query consists of 2 integers L and R and we've to print sum of elements of array from L to R(inclusive).
+
+2) Fibonacci no.'s (top down and bottom up approach).
+
+3) Longest increasing subsequence.
+
+4) Longest common subsequence.
+
+5)Knapsack
+
+
+
+

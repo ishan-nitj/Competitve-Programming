@@ -1,0 +1,25 @@
+ <DOCTYPE HTML>
+<html>
+<head>
+	<script src = 'd3.js'></script>
+</head>
+
+<body>
+	<script>
+	var arr=[20,40,50,60];
+ 	var canvas=	d3.select("body")    
+ 				.append("svg")
+ 				.attr("width",500)
+ 				.attr("height",500)
+ 				
+ 	var bars=canvas.selectAll("rect")
+    				.data(arr)
+    				.enter()
+    					.append("rect")
+    					.attr("width",function(d){return d*10;})//d represents data
+    					.attr("height",50)
+    					.attr("y",function(d,i){ return 100*i;});// i here represents index
+ //Note that maximum width here can be 500.So 60 whose width is 600 is reduced to 500.
+	</script>
+</body>
+</html>

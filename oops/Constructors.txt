@@ -1,0 +1,22 @@
+Constructor must be declared in the public section of the class.
+ 
+In C++, compiler creates a default constructor if we don’t define our own constructor (See this). Compiler created default constructor has empty body, i.e., it doesn’t
+ assign default values to data members  
+
+Compiler also creates a copy constructor if we don’t write our own copy constructor. Unlike default constructor, body of compiler created copy constructor is not 
+empty, it copies all data members of passed object to the object which is being created.
+
+In the function defn. of copy constructor-
+integer (integer &i){
+}
+
+What happens when we write only a copy constructor – does compiler create default constructor?
+Compiler doesn’t create a default constructor if we write any constructor even if it is copy constructor. 
+
+What about reverse – what happens when we write a normal constructor and don’t write a copy constructor?
+Reverse is not true. Compiler creates a copy constructor if we don’t write our own. Compiler creates it even if we have written other constructors in class.  
+
+When we create our own copy constructor, we pass an object by reference and we generally pass it as a const reference. 
+One reason for passing const reference is, we should use const in C++ wherever possible so that objects are not accidentally modified.
+Just place const keyword before class name.
+

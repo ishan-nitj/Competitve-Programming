@@ -1,0 +1,32 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<script src = 'd3.js'></script>
+</head>
+
+<body>
+
+<script>
+var data = [100,140,300,150,70,1000,600];
+var scale = d3.scale.linear()
+			.domain([0,1000])
+			.range([0,500]);
+var canvas = d3.select("body")
+			.append("svg")
+			.attr("width",500)
+			.attr("height",500);
+var bars_ver = canvas.selectAll("rect")
+			.data(data)
+			.enter()
+			.append("rect")
+			.attr("width",40)
+			.attr("height",function(d){return scale(d);})
+			.attr("x",function(d,i){ return i*50+20; })
+			.attr("y",function(d){return 500-scale(d);})
+			.style("fill","#33ccff");
+</script>
+
+
+</body>
+</html>
+

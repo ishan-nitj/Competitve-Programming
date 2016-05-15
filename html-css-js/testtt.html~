@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+ 
+var MAX_DATE = new Date(2009,0,12);
+console.log(12);
+</script>
+
+</body>
+</html>
+

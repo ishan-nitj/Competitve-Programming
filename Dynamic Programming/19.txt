@@ -1,0 +1,11 @@
+bottom up-only constant amt of space needed because we only need the last two fib. no's.We can delete prev. values.
+
+running time:treating recursive calls as O(1)
+
+Each input will be computed at most once Time complexity is O(n × k), where k is the time complexity of computing an
+ input if we assume that the recursive calls are returned directly from memory(O(1))
+
+Since we’re only doing constant amount of work tocompute the answer to an input, k = O(1)
+
+Total time complexity is O(n).
+

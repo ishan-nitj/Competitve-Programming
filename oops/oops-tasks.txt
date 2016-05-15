@@ -1,0 +1,7 @@
+Left-
+open function modes
+Rn
+
+After exam-print of 1st few pages, templates.
+COnsole i/o few pages.
+inheritence notes.

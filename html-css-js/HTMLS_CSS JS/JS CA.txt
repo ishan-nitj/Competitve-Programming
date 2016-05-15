@@ -1,0 +1,214 @@
+Lesson 1:Introduction
+; like c++
+
+String is represented within " ".
+
++ can be used to concatenate strings
+
+// and /* */  are used for comments
+
+confirm("Are you sure"); used to confirm things with user.pops a dialog box to user.
+prompt("What is your name?"); i=used to get input from user
+
+"abc".length // used to get the length of a string
+
+console.log("Hello")//used to print to console
+
+== equal to and != not equal to
+
+** os used for power
+
+boolean variable:true and false
+
+if (9>0) 
+{
+    console.log("Let's go down the first road!");
+}
+else 
+{
+    console.log("Fuck off")
+    
+}
+
+"wonderful day".substring(3,7)  // the string in js is 0 based indexed. This statement prints substring staring from idx=3 till idx=7(not including).
+
+dynamic declaration of variables
+
+use var keyword to declare a variable
+
+Lesson 2:Functions
+Declaring a function in js:
+var timesTwo = function(number) {
+    return number * 2;
+};
+
+Concept of global and local variables
+
+typeof a :gives type of variable a
+
+Lesson 3 and 4:Loops
+
+for (var i = 1; i < 11; i = i + 1){
+	console.log(i);
+}
+
+var i=0;
+while(i++<10)
+console.log(i)
+
+Arrays:
+var junk=["A","B",1,2];//Arrays in js can be heterogenous
+console.log(junk);
+
+Arrays have zero based indexing
+
+junk.length gives the length of the array
+
+var arr=[[1,1],[1,1]];//2d array
+
+var arr=[[1],[1,1]]; jagged array
+
+Lesson 5:
+
+isNaN:The isNaN() function determines whether a value is an illegal number (Not-a-Number).
+
+isNaN('123') //false 
+isNaN(123) //false
+isNaN('Hello') //true
+
+Switch case:
+switch(color) {
+  case 'red':
+    console.log("Red's a good color!");
+    break;
+  case 'blue':
+    console.log("That's my favorite color, too!");
+    break;
+ case "yellow":
+     console.log("That's yours favorite color, too!");
+    break;
+  default:
+    console.log("I don't think that's a primary color!");
+}
+
+Logical operators same as c++.
+
+Lesson 6:
+1) Objects in JS
+
+M1:var myObj = {
+    type: 'fancy',
+    disposition: 'sunny'
+};
+
+myObj.type='old';****This can be used to change the value of the existing property.
+myObj.size=12;****This can also be used to create new properties.
+
+var emptyObj = {};//empty
+
+M2:var myObj = new Object();
+
+myObj["name"] = "Charlie";//first way to set  properties of object
+myObj.name = "Charlie";//secon way
+
+2) Methods:
+M1) var bob = new Object();
+
+bob.setAge = function (newAge){
+  bob.age = newAge;           ****We still have to use . here
+};
+
+M2) var bob={
+func:function(){
+//func definition  // we will have to use dot notation here.
+}
+
+};
+
+3) This:
+var setAge = function (newAge) {//this function can work for other objects also.Basically now the this.age will depend upon which object is calling the function.
+  this.age = newAge;
+};
+
+var susan= new Object();
+susan.age = 25;
+susan.setAge=setAge;
+susan.setAge(35);
+
+4)Custom constrcutors:
+function Person(name,age){
+  this.name = name;
+  this.age = age;
+  this.species="Homo Sapiens"
+}
+
+// Let's make bob and susan again, using our constructor
+var bob = new Person("Bob Smith", 30);
+var susan = new Person("Susan Jordan", 25);
+
+5) Constructor with methods:
+function Rectangle(height, width) {
+  this.height = height;
+  this.width = width;
+  this.calcArea = function() {
+      return this.height * this.width;
+  };
+  this.calcPerimeter=function(){
+  return 2*(this.height + this.width);
+  };
+}
+
+var rex = new Rectangle(7,3);
+var area = rex.calcArea();
+var perimeter = rex.calcPerimeter();
+
+6)Array of objects:
+
+// Our person constructor
+function Person (name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+// Now we can make an array of people
+var family = new Array();
+family[0] = new Person("alice", 40);
+family[1] = new Person("bob", 42);
+family[2] = new Person("michelle", 8);
+family[3]=new Person("timmy",6);
+
+7)myObj.hasOwnProperty('name') :checks whether the object has that particular property.
+
+for printing the properties and their values.
+
+for(var i in nyc){
+ console.log(i);   
+ console.log(nyc[i]);
+}
+
+8)In general, if you want to add a method to a class such that all members of the class can use it, we use the following syntax to extend the prototype:
+
+className.prototype.newMethod =
+
+function() {
+statements;// it can use this.property to access properties of an object.
+};
+
+9)Inheritence:Left
+
+10)Decalaring a private variable and method
+
+function Person(first,last,age) {
+   this.firstname = first;
+   this.lastname = last;
+   this.age = age;
+   var bankBalance = 7500;//private variable
+  
+   var returnBalance = function() {//private method
+      return bankBalance;
+   };
+       
+this.askTeller=function(){
+return returnBalance;   ***** NO () since we are returning function itself and not the value
+}
+}

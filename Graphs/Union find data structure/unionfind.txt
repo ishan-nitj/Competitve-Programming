@@ -1,0 +1,9 @@
+1 based indexing
+Union (when both elements are not root)
+The elements are believed to be from 1 to N.
+
+Running time of both union and find:
+Naive:O(n)
+Balanced:O(lgn)
+With path compression:O(lg*n) i.e.log *N is the iterative function which computes the number of times you have to take log of N till the value of N doesn’t reaches to 1.
+log*N is much better than log N, as its value reaches at most up to 5 in the real world.

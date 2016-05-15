@@ -1,0 +1,95 @@
+﻿//Graphs topics left:
+//articulation points
+//kosaraju algorithm
+
+pi(predecessor) in DFS and dijkstra .
+
+A node a is a ancestor of another node b in DFS if a is ancestor of b in DFS tree.
+
+To mark arrival and departure time in DFS,use the same global variable.
+
+A DFS tree represents the tree edges of a graph.
+ 
+Cycle detection using DFS in undirected graphs:
+For every visited vertex ‘v’, if there is an adjacent ‘u’ such that u is already visited and u is not parent of v, then there is a cycle in graph. Such an edge is 
+called a back edge.An undirected graph can only have tree and back edges.
+
+How to check whether a node is a part of cycle in a directed graph?
+Start DFS from that node. If there is a back edge to that node, the node is a part of a cycle.
+
+Cycle detection using DFS in directed graphs:
+If there exists back edge in a graph , then there is cycle.Use definition of back edge as given in notes.
+
+Classification of edges into 4 categories for directed graphs.Note that this concept of labeling edges is relative  and depends on the from where we start DFS.
+
+NO back edge=>NO cycle
+Back edge =>cycle.(holds good for both directed and undirected graphs) 
+
+If we sort the vertices in decreasing order of their finish times of DCG, there can be an edge from right to left.If not ,then the graph would be acyclic.
+
+Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. 
+Topological Sorting for a graph is not possible if the graph is not a DAG.(sort the vertices in decreasing order of their finish times to get  topologicla sort of the
+graph.)
+
+**If there is no vertex with in-degree 0,then there is a cycle in digraph.
+
+It is easy to see that the first vertex can be any vertex which does not use any incoming edges and it must exist at least one such vertex, 
+because DAGs do not have directed cycles. If we pick any such vertex, put it in the resulting order, and delete it from the graph, the resulting graph will remain a 
+DAG and we can continue this process while the graph has at least one vertex.(Slow)
+
+We can count the no of connected components in a graph using DFS.
+
+We can use flyod warshall to detect which nodes form part of negative cycle in a graph.See notes.
+
+Running time of kruskal:eloge(from sorting)+vlogv(dsu)//assuming find operation take O(v)
+Running time of Prims:vloge(if we are using pq)
+
+Notes from MIT lectures:
+
+Lec-15 Shortest paths
+1)In general E=O(V^2)
+Dijkstra :Complexity -O(E+VLGV) Works for only positive edges.
+Bellman Ford:-O(VE) Works for both positive and negative edges.
+Shortest path problem:
+Find the shortest path b/w different vertices.Note that there are exponential no of paths b./w two different vertices.Note that weight does not figure in the complexity calculations of these shortest path problems.
+
+2)Disclaimer:delta(u,v) is the length of shortest path b/w vertices u and v.
+If(u==v) delta(u,v)=0
+If(u and v are not connected) delta(u,v)=infinity
+pi(v) is the predecessor of v in the shortest path sequence.pi(s) =Nil where s is the source vertex.
+
+3)We can also use relative shifting of weights in case of negative weights and use Dijkstra.
+Notion of negative wts:Negative tolls.
+
+4)In case there are negative cycles, there may be some points use delta value is -infinity.See lec15 Time:35.00.So it means bellman ford algo has to determine cycles of negative edge length.
+
+5)General Idea:
+Let d(v) denote the current min. distance to v.
+if(d(v)>d(u)+w(u,v)) // we have found a more shorter path.
+pi(v)=u
+
+**6)Subpaths of a shortest paths are also shortest path.
+
+Lec-16 Dijkstra's Algo.
+Shortest path in DAG(can have negative edges but not cycles) in O(V+E) time;
+Dijkstra-Greedy
+PQ using arrays:
+O(V^2+E)
+
+PQ using binary minheap:
+O(VlgV+ElgV)
+
+Using Fibonacci Heap:
+O(VlgV+E)
+
+Lec-17 Bellman-Ford
+Detect negative cycles(if any)
+
+Lec-18
+**Speeding up Dijkstra for single source-single target .Stop when shortest path for target is found.
+Bidirectional search-left
+
+Lec-19
+delta(s,v)=min(paths from s to u)+weight(u,v)// works only for DAGS//else loop runs infinite time 
+delta(s,s)=0 
+ 

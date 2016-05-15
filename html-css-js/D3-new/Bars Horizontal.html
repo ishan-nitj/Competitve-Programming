@@ -1,0 +1,30 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<script src = 'd3.js'></script>
+</head>
+
+<body>
+
+<script>
+
+var data = [1000,200,150,300,50];
+
+var canvas = d3.select("body")
+			.append("svg")
+			.attr("width",500)
+			.attr("height",500);
+
+var bars_hor = canvas.selectAll("rect")
+			.data(data)
+			.enter()
+			.append("rect")
+			.attr("width",function(k) { return k; })
+			.attr("height",40)
+			.attr("y",function(d,i){ return i*50+20; })
+			.style("fill","#33ccff");
+</script>
+
+
+</body>
+</html>

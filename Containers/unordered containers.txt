@@ -1,0 +1,12 @@
+insert , find o(1) ,hash collision may degrade performance.
+in uo sets value of values cannot be changed.
+in uo maps, value of keys cannot be changed.
+
+unordered_map  and map- day[key] can be used to modify existing values and insert new 
+values but not print values.// associative array
+
+unordered_set
+
+multimap and unordered_multimap donot have [] .
+
+     

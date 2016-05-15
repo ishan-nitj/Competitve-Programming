@@ -1,0 +1,62 @@
+1)Codemonk:
+**sorting://Puchi and Luggage	
+**Number theory 3://Monk And ETF
+
+dp:#Samu and Special Coprime Numbers,//Samu and Shooting Game
+bit manipulation:2 qns
+computational geometry:2 qns
+**gt 2:2 qns
+**BIT:2
+Tries:2
+
+nt 2,dp-2,//segment trees-not attmepted	
+
+Hackerearth BITWISE 2016 qns:4
+
+Topcoder:1
+1 problem left from the srm recently given.//chairs 
+2qns of srm 685
+3rd qn of srm 689
+
+2)Codejam :
+Milkshakes,dreary design
+https://code.google.com/codejam/contest/32016/dashboard#s=p1
+https://code.google.com/codejam/contest/9214486/dashboard#s=p1\
+1 qn:qualification round 1 qn 
+round 1 a -3rd qn
+round 1b -2qns
+
+3)Hackerrank:
+3 qns from accel hack2
+
+4)codechef:
+seatl 
+ppcts 
+https://www.codechef.com/NPLTZ15/problems/FINDEX
+https://www.codechef.com/problems/CRANGIRL
+LCP maximization
+
+5)New topics:
+Manachers Algorithm
+Mo's algo
+**2 pointer
+palindromic strings related topics
+ncr%M
+dp on trees
+modinv
+**counting inversions
+http://codeforces.com/blog/entry/13529
+Network Flow
+trie lalit kundu
+https://threads-iiith.quora.com/
+dp on digits of a number
+**sliding window problem
+**divide and conquer:largest contiguous array
+chinese remainder theorem
+**Chromatic no of  a graph
+Flyod warshall path draw
+
+Geeksforgeeks:
+http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
+http://www.practice.geeksforgeeks.org/tags.php?
+

@@ -1,0 +1,21 @@
+Two lines may intersect at one zero or infinite points.
+
+Difficulty when we represent w/ a pair of points-we cannot tell if two lines are same.
+
+y=mx+c representation doesnt work when we have a line parallel w/ y axis.
+
+When we represent a line w/ ax+by+c=0 ,the difficulty is that k(ax+by+c) will also be a representation for that line.
+
+We can overcome this difficulty by making b=1 when it is non zero ,otherwise setting a=1.
+
+Area  of polygon= 1/2 * Summation (From i=0 to n-1) Xi * Yi+1 - Xi+1 + Yi
+
+A regular polygon that can be formed with integer coordinates is a square.
+
+What is the number of integer coordinates(end points included) on a line segment with integer end coordinates (x1,y1) and (x2,y2)?
+If you include the initial point too ans is GCD(abs(y2-y1),abs(x2-x1)) +1 .
+
+Minimum distance of point(C)from a line segment(A,B) :Note if the perpendicular drooped from the point to the line of the line segment is not b/w the two points, then the 
+point closest to C is either A or B. 
+
+ 

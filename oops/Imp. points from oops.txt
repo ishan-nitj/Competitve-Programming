@@ -1,0 +1,38 @@
+1)The line using namespace std tells the compiler that the objects cin and cout are being referred from the namespace std and not from any other file.
+2)The iostream contains the code for these identifiers.
+3) Function prototype declaration is not necessary if the function definition preceds the function call.
+4) Inline function are used a settle a tradeoff b/w time and memory.Time gets more imp. than memory.All the functioms of the class are by default inline.However we can 
+make them non-inline by declaring them outside the class.Read notes.
+5):: comes after the class name .Class_name ::  usually comes after the return type of the function .
+6)Default arguements are used when we not sure about the no. of arguements or we want to assign some default values to the arguements.After a arguement has been 
+assigned value , all the subsequent arguements must also be assigned default arguements.
+7)Call by reference-notes.Passing arguements by reference-no change to be made in the function calling.
+8)Function overloading-No difference in return type of 2 functions(how will the compiler know which function it should call?), only difference is in the type of the 
+arguements or the number of the arguements.
+9)In function overloading the compiler a)first looks for an exact match b) Then integral promotions (cha to int and float to double) c)Then narrowing or widening(like
+int make be widenend to float if none of a) and b) work or float may be narrowed  to int if none of the a) and b) work.
+10) 6.6 is double ,6.6 f is float.
+11) Structures in c++ are similar to that in c but they can contain function also. However the deafult scope of data members and functions is public.
+12)Size of an empty class is 1 byte.
+13)Friend function doesnot behave like a member function but it behaves like all the private data has been made public for it.
+14)A static variable is shared by all the objects of the class,it is allocated memory only once,along w/ declartion it also needs to be defined,its default value is 
+zero.
+Declaration- static int count;
+Definition-int class_name :: count;// default value zero
+int class_name :: count=10;
+15) A static member function can be accessed w/o objects. It can only use static data members.A function can be made static by writing the keyword static infront of it.
+Syntax for calling:class_name::function _name.
+16)Local classes-Read notes.
+17)Pointers to data member- int A::*ptr=&A::dm;
+Pointer to member function-void(A::*ptr)(int,int)=&(A::show) while calling  -(A.*ptr)(arguements) 
+18) Member function of a class as a friend to another class-write the class containing function first.
+19)Constructors Destructor and  copy constructor-notes.In case of overloading of >> operator , istream object is passed by reference and in case of cascading of >> 
+oeprator istream object is returned by reference.
+23)operator which cant be overloaded are .,.*,::,?:.
+24)operator which can t be overloaded using a friend function:  == () [] ->
+25)You need to pass the stream by reference, because streams are not generally copyable:
+21)templates-notes.
+20)type conversion and operator overloading-notes.
+
+22)Console i/o -class notes + notes.
+26)Inheritence-notes.
