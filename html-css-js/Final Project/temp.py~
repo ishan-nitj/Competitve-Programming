@@ -1,8 +1,0 @@
-import json
-
-with open("text.json") as json_file:
-    json_data = json.load(json_file)
-print (json_data)
-
-for i in json_data:
-    print i

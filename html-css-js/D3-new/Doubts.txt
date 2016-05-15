@@ -1,4 +1,0 @@
-->Size of SVG
-->Bar graphs using divs not working when we assign properties directly.We have to assign using css.
-->Why are we varying y coordinate
-->Creating a y axis in D3

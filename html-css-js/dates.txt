@@ -1,1 +1,0 @@
-[{"date":"24-Apr-07","price":93.24},{"date":"25-Apr-07","price":95.35},{"date":"26-Apr-07","price":98.84},{"date":"27-Apr-07","price":99.92}]
