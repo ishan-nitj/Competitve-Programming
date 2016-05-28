@@ -1,2 +1,0 @@
-Greedy Choice Property:        from a local optimum we can reach a global optimum, without having to reconsider the decisions already taken.
-Optimal Substructure Property: the optimal solution to a problem can be determined from the optimal solutions to its subproblems.
