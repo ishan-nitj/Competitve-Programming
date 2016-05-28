@@ -28,6 +28,9 @@ round 1b -2qns
 
 3)Hackerrank:
 3 qns from accel hack2
+3 qns May code sprint
+7 qns from game theory 
+https://www.hackerrank.com/domains/algorithms/game-theory/difficulty/all/page/1
 
 4)codechef:
 seatl 
@@ -35,6 +38,7 @@ ppcts
 https://www.codechef.com/NPLTZ15/problems/FINDEX
 https://www.codechef.com/problems/CRANGIRL
 LCP maximization
+march lunchtime problems
 
 5)New topics:
 Manachers Algorithm
