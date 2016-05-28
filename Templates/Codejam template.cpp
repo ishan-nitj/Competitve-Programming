@@ -17,7 +17,6 @@ int main(){
 ll t,i;cin>>t;
 ll K=1;
 while(t--){
-
 cout<<"Case #"<<K++<<": ";
 }
 
