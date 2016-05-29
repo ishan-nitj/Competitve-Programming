@@ -1,19 +1,4 @@
-1)Codemonk:
-**sorting://Puchi and Luggage	
-**Number theory 3://Monk And ETF
-
-dp:#Samu and Special Coprime Numbers,//Samu and Shooting Game
-bit manipulation:2 qns
-computational geometry:2 qns
-**gt 2:2 qns
-**BIT:2
-Tries:2
-
-nt 2,dp-2,//segment trees-not attmepted	
-
-Hackerearth BITWISE 2016 qns:4
-
-Topcoder:1
+1)Topcoder:
 1 problem left from the srm recently given.//chairs 
 2qns of srm 685
 3rd qn of srm 689
@@ -26,21 +11,54 @@ https://code.google.com/codejam/contest/9214486/dashboard#s=p1\
 round 1 a -3rd qn
 round 1b -2qns
 
-3)Hackerrank:
-3 qns from accel hack2
-3 qns May code sprint
-7 qns from game theory 
-https://www.hackerrank.com/domains/algorithms/game-theory/difficulty/all/page/1
+3)Others
+DP Problems:
+https://www.hackerearth.com/code-monk-dynamic-programming-part-ii/problems/ ==>3 qns
+https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/monk-in-the-magical-land/
+https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/when-the-integers-got-upset/
+https://www.hackerearth.com/code-monk-dynamic-programming/algorithm/samu-and-special-coprime-numbers/
+https://www.hackerearth.com/code-monk-dynamic-programming/algorithm/samu-and-shooting-game/
+https://www.hackerrank.com/contests/may-world-codesprint/challenges/div-and-span
+https://www.hackerearth.com/bitwise-2016/algorithm/relatives/
 
-4)codechef:
-seatl 
-ppcts 
+String Problems:
 https://www.codechef.com/NPLTZ15/problems/FINDEX
 https://www.codechef.com/problems/CRANGIRL
-LCP maximization
-march lunchtime problems
+https://www.hackerrank.com/contests/accel-hack/challenges/strings
+https://www.hackerearth.com/code-monk-triessuffix-tree/algorithm/shil-and-lcp-pairsmonk/
+https://www.hackerearth.com/code-monk-triessuffix-tree/algorithm/sonya-and-string-shifts-code-monk-triesuffix-structures/
+https://www.codechef.com/COOK69/problems/LCPMAX
+https://www.hackerearth.com/bitwise-2016/algorithm/lcs-1/
 
-5)New topics:
+Graph Problems:
+https://www.hackerrank.com/contests/may-world-codesprint/challenges/davaro-and-travelling
+https://www.hackerrank.com/contests/may-world-codesprint/challenges/coloring-tree-1
+https://www.hackerrank.com/contests/accel-hack/challenges/acyclic-graph
+https://www.hackerearth.com/code-monk-graph-theory-ii/algorithm/monk-in-the-secret-services/
+https://www.hackerearth.com/code-monk-graph-theory-ii/algorithm/childfree-time-1/
+https://www.codechef.com/LTIME34/problems/PAIRCLST
+
+Game Theory:
+https://www.hackerrank.com/domains/algorithms/game-theory/difficulty/all/page/1  ==>7 qns of medium difficulty
+
+Segment Trees:
+https://www.codechef.com/LTIME34/problems/ARRAYSUM
+https://www.hackerearth.com/code-monk-segment-tree-and-lazy-propagation/problems/  ==>4 qns
+https://www.hackerearth.com/bitwise-2016/algorithm/fibonacci-coffecients/description/
+
+Number Theory:
+https://www.hackerearth.com/code-monk-number-theory-iii/algorithm/monk-and-etf/
+https://www.hackerearth.com/code-monk-number-theory-ii/problems/ =>5 qns
+
+Others:
+https://www.codechef.com/FEB16/problems/SEATL
+https://www.codechef.com/FEB16/problems/PPCTS
+https://www.hackerearth.com/code-monk-sorting/algorithm/puchi-and-luggage/
+https://www.hackerearth.com/bitwise-2016/algorithm/othello/
+https://www.hackerearth.com/code-monk-computational-geometry/algorithm/aqua-park/
+https://www.hackerearth.com/code-monk-computational-geometry/algorithm/the-maze-runner/
+
+4)New topics:
 Manachers Algorithm
 Mo's algo
 **2 pointer
@@ -60,7 +78,4 @@ chinese remainder theorem
 **Chromatic no of  a graph
 Flyod warshall path draw
 
-Geeksforgeeks:
-http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
-http://www.practice.geeksforgeeks.org/tags.php?
 
