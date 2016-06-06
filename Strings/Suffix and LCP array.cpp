@@ -64,4 +64,7 @@ int main()
     cin>>S;
     buildSA();
     buildLCP();
+	//print_array(sa,S.size());cout<<endl;
+	//print_array(lcp,S.size());
+
 }
