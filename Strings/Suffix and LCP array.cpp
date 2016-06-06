@@ -1,5 +1,10 @@
 // Code borrowed from Vedaanta Agarwalla//may be he borrowed from someone else
 //Here the last term in LCP array is zero
+//Applications:
+//1)Finding minimum lexiographic rotation of a string.
+//2)Finding longest palindromic substring.//concatenate : string +'#'+string_reverse ..Here '#' is assumed to have lowest ascii value.
+//3)Finding the number of occurrences of a pattern.
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
