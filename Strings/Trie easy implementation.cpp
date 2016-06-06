@@ -1,3 +1,4 @@
+//ishan-nitj
 #include <bits/stdc++.h>
 #define ll long long
 #define sl(n) scanf("%lld",&n)
@@ -107,8 +108,6 @@ int main()
 	printf("no of words with prefix abhi are %d\n",words_with_prefix("abhi"));
 	printf("no of words with prefix ch are %d\n",words_with_prefix("ch"));
 	printf("no of words with prefix k are %d\n ",words_with_prefix("k"));
-
-
 
 	return 0;
 }
