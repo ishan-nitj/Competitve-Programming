@@ -143,8 +143,6 @@ void getHeight(int n)
 }
 // End of longest common prefixes algorithm
 
-
-
 int main()
 {
 
@@ -162,6 +160,4 @@ for(int i=0;i<Len;i++)
 cout<<endl;
 for(int i=0;i<Len;i++)
     cout<<Height[i]<<" ";////Here the first term in LCP array is zero
-
-
 }

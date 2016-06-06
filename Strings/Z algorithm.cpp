@@ -9,12 +9,11 @@ using namespace std;
 #define print_array(a,n) for(i=0;i<n;i++) cout<<a[i]<<" ";
 #define var_val(x) cout<<#x<<" "<<x<<endl;
 #define pb push_back
-Two important points:
-1) When to write z[i]>=val  and z[i]=val
-2) abcabcabc type of string.
+//Two important points:
+//1) When to write z[i]>=val  and z[i]=val
+//2) abcabcabc type of string.
 
-
-vector<ll> z_algo(string s){//faster
+vector<ll> z_algo(string s ){//faster
 ll L = 0, R = 0;
 ll n=s.size();
 vector<ll>z(n);
