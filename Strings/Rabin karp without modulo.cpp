@@ -1,4 +1,5 @@
-// Important questions:2 questions of Rabin Karp +Binary Search from codemonk
+// Important questions:2 questions of Rabin Karp +Binary Search from codemonk.
+//Finding longest palindromic substring in NLGN time using rabin karp.
 //You are given a string S. Find the length of its the longest substring which occurs at least two times.
 
 #include <bits/stdc++.h>
@@ -34,6 +35,14 @@ ll i,sum=0;
 for(i=0;i<window_size;i++){
 sum=sum*27+val(s[i]);
 }
+
+//ll sum1=0;   //proof that by both methods the overflowed value remains the same
+//for(i=window_size-1;i>=0;i--){
+//sum1+=pw[window_size-1-i]*val(s[i]);
+//}
+//var_val(sum);
+//var_val(sum1);
+
 arr[0]=sum;
 for(i=1;i<=(s.size()-window_size);i++){
 sum=arr[i-1];
