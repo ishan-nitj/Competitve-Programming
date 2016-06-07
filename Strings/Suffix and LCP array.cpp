@@ -60,7 +60,8 @@ void buildLCP(){
 }
 
 int main()
-{
+{	string t1,t2,s;
+	cin>>s>>t1>>t2;
     cin>>S;
     buildSA();
     buildLCP();
