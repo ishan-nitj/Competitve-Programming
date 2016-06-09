@@ -1,3 +1,4 @@
+//
 #include<iostream>
 using namespace std;
 int gcdExtended(int a, int b, int *x, int *y);
