@@ -39,25 +39,12 @@ ans=(ans*temp)%n;
 }
 return ans;
 }
-//ALTERNATE //borrowed
-ll powmod(ll base,ll exponent,ll mod){
-	ll ans=1;
-	while(exponent>0){
-		while(exponent%2==0){
-			base*=base;
-			base%=MOD;
-			exponent/=2;
-		}
-		exponent--;
-		ans*=base;
-		ans%=MOD;
-	}
-	return ans;
-}
+
 ll mmi(ll x,ll y){/////////imp
 ////first check whether this is applicable or not
 return (modexp(x,y-2,y));
 }
+
 ll div1(ll x,ll y){
 return ( (x%MOD)*(mmi(y,MOD)%MOD) )%MOD;
 }
