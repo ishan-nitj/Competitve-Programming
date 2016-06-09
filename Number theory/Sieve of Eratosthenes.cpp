@@ -32,10 +32,6 @@ if(isprime[i]==1)// i is prime
 }
 }
 
-
-
-
-
 int main(){
 ll i,n;sl(n);
 rep(i,n+1)
