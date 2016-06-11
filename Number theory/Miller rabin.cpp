@@ -72,8 +72,7 @@ for(ll i=1;i<=iter;i++){
 	ll j=2*s;
 	bool flag=0;
 		while(j!=(p-1)){
-		x=power(a,j,p);
-		dbg2(x,j);
+		x=power(a,j,p);//x=mulmod(x,x,p);
 		if(x==p-1){
 		flag=1;
 		break;}
