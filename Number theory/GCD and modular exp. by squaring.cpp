@@ -45,13 +45,7 @@ ll mmi(ll x,ll y){/////////imp
 return (modexp(x,y-2,y));
 }
 
-ll div1(ll x,ll y){
-return ( (x%MOD)*(mmi(y,MOD)%MOD) )%MOD;
-}
 
-ll pro(ll x,ll y){
-return ((x%MOD)*(y%MOD))%MOD;
-}
 int main(){
 cout<<pro(3,4);
 }
