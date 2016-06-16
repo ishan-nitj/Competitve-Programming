@@ -8,3 +8,6 @@ METHOD 1 (Simple)
 For each element, count number of elements which are on right side of it and are smaller than it.
 Time Complexity: O(n^2)
 
+METHOD 2 (Merge Sort)
+While merging two sorted subarrays you can count the inversion.This process can then be applied recursively.
+Time Complexity: O(nlog(n))
