@@ -1,3 +1,5 @@
+//Ishan Bansal
+//Suppose we want to find the path from node 1 to every other node. Do DFS from node 1 and mark predecessor of every other node.
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

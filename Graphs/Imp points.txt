@@ -68,3 +68,14 @@ binary search 1 important question from codemonk:Monk's Encounter with Polynomia
 
 s.size() is unsingned integer .so s.size()-100 may give wrong value if its < 100. 
 
+donot redeclare a global variable as a a local variable.
+
+use of return 0 to terminate a program midway.
+
+**********iterate of range of answer values to find the correct answer:Binary search
+
+*******************2 pointer technique
+http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+
+
+

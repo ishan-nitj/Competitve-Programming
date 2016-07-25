@@ -1,0 +1,58 @@
+Vectors:
+=>vector<int> v(arr,arr+4);
+**=>v.insert(v.begin()+2 ,23)// Shifting automatically done;
+=>lower_bound(it1,it2,val) for a sorted vector
+**=>v.erase(it)
+=>Note that we can do it++ and it-- in a vector.
+**=>auto it=find(v.begin(),v.end(),val)
+
+Map:
+=>map<ll,ll>mp; for a ll key which is not mapped to a value cout<<mp[key] will give ans as 0.
+**=>mp.erase(key);
+** never use if(mp[8]==0) to check whether 8 exists as a key or not . This creates a new key 8 with value 0.
+use mp.count(8)==0
+
+Set:
+**=>s.erase(val) // in case of multiset deletes all the elements with a given value
+=>s.erase(it)
+=>we can have it++ and it-- in a set.
+=>lower_bound() and upper_bound()
+**=>s.find(val)
+
+Stack,queue and deque:
+Stack,queue and deque=>size(),empty()
+queue and stack=>push() and pop()
+stack=>top()
+queue=>front() and back()
+deque=>push_front() and push_back() .Similarly for pop
+**Note deque has .begin() and .end()
+
+STL Alg:
+=>find(v.begin(),v.end(),val)
+**=>remove(v.begin(),v.end(),val)
+=>reverse(v.begin(),v.end())
+
+Strings:
+**=>char sentence []="Rudolph is 12 years old";
+char str [20];
+int i;
+sscanf (s entence,"%s %*s %d",str,&i);// similarly use sprintf
+
+=>getline(cin,s);
+note we may have to use getchar()
+
+**=>inputing an array of numbers till users enter them
+while(scanf("%d",&a)){
+}
+
+**=>inputing a string of characters till users enter them
+while(scanf("%c",&ch)!=EOF){
+}
+
+Notes:
+=>Sort() requires binary predicate op and find_if() requires unary predicate op.
+=>We can also use overloading of () in place of it.
+=>We have to use () while calling func in case of sorting.
+=>In pq ,we can provide user provided compare.
+=>See pq.
+=>We can also use set for implementing pq. We here also have an option to delete any element.

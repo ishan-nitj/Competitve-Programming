@@ -12,6 +12,7 @@ using namespace std;
 #define se second
 #define mag 100000
 // 1 based indexing
+//In update ,it also updates arr.
 ll tree[2*mag],arr[mag+1];
 
 void build(ll node,ll st,ll en){// call with node=1
@@ -28,7 +29,7 @@ void build(ll node,ll st,ll en){// call with node=1
 ll query(ll node,ll st,ll en,ll l,ll r){
     if(en<l || st>r)//range represented by node lies completely outside l and r
         return 0;
-    else if(st>=en && en<=r )//range represented by node lies b/w l and r
+    else if(st>=l && en<=r )//range represented by node i.e. b/w st and en lies b/w l and r
         return tree[node];
     else
         return (query(2*node,st,(st+en)/2,l,r)+ query(2*node+1,(st+en)/2+1,en,l,r));
@@ -49,6 +50,7 @@ void update(ll node,ll st,ll en,ll idx,ll val){
         tree[node]+=val;
     }
 }
+
 
 int main(){
 ll n;cin>>n;

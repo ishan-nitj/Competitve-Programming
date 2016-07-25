@@ -14,28 +14,28 @@ using namespace std;
 vector<ll>arr;
 
 ll root(ll x){
-while(x!=arr[x]){
-x=arr[x];
-}
-return x;
-}
-
-bool find_(ll x,ll y){// checks whether x and y are in the same set
-return(root(x)==root(y));
+    while(x!=arr[x]){
+        x=arr[x];
+    }
+    return x;
 }
 
-void union_(ll x,ll y){//
-arr[root(y)]=root(x);
+bool find(ll x,ll y){// checks whether x and y are in the same set
+    return(root(x)==root(y));
+}
+
+void union(ll x,ll y){//
+    arr[root(y)]=root(x);
 }
 
 int main(){
-ll n,i;cin>>(n);
-arr.resize(n+1);
-rep(i,n+1)
-arr[i]=i;// Initially root of each element is the element itself
-ll k;cin>>(k);//No of queries
-while(k--){
-ll i,j;cin>>(i)>>(j);
-union_(i,j);//
-}
+    ll n,i;cin>>(n);
+    arr.resize(n+1);
+    rep(i,n+1)
+        arr[i]=i;// Initially root of each element is the element itself
+    ll k;cin>>(k);//No of queries
+    while(k--){
+        ll i,j;cin>>(i)>>(j);
+        union(i,j);//
+    }
 }

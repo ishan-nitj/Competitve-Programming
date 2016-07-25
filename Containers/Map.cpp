@@ -1,3 +1,5 @@
+******** never use if(mp[8]==0) to check whether 8 exists as a key or not . This creates a new key 8 with value 0.
+use mp.count(8)==0
 #include <iostream>//In a  map , the values be will be in sorted order according to the key.
 //WE CANNOTMODIFY KEYS.// multimap allows duplicates keys.
 #include <map>// We can access the key like *it.first and value by *it.second

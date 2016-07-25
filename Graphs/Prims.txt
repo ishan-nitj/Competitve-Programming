@@ -1,6 +1,5 @@
 Prim-MST(G)
-
 Select an arbitrary vertex s to start the tree from.
    While (there are still nontree vertices)
          Select the edge of minimum weight between a tree and nontree vertex
-	         Add the selected edge and vertex to the tree Tprim.
+	     	Add the selected edge and vertex to the tree Tprim.

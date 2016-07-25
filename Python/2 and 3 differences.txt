@@ -1,0 +1,8 @@
+The print function:print(x, end=" ")  # Appends a space instead of a newline in Python 3
+Reading input from keyboard: Further, received data is always treated as string
+Integer division:Python 3 evaluates 3 / 2 as 1.5 by default, which is more intuitive for new programmers.
+
+Read other differences from notes.
+
+Use // for floor divison in python 3
+

@@ -1,1 +1,0 @@
-https://www.quora.com/How-do-I-solve-the-SPOJ-problem-lineup-using-DP-with-bitmasks

@@ -30,10 +30,8 @@ ll count=0;
 while(n){
 n=n&(n-1);
 count++;
-
 }
 return count;
-
 }
 
 // Check if the i th bit is set in the binary form

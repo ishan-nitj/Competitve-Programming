@@ -1,0 +1,29 @@
+a={1,2,3,4,1}
+print a
+a=set()
+a.add(1)
+a.add(3)
+
+Dont intialize set as a={}
+This will make a as dictionary
+
+Set doesnot support access by index operation
+
+set can take a list as input 
+
+a=set(lst)
+
+a frozen set is one which is frozen i.e. we cant change its contents.
+
+fs=frozenset(set1)
+
+set support in operation
+
+set is iteratable
+
+x|y x&y x-y x<y union ,intersection ,difference ,subset.
+
+
+
+
+

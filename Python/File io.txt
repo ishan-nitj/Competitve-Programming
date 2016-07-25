@@ -1,0 +1,9 @@
+outfile=open("op.txt","wt")
+outfile.write("hi")
+outfile.close()
+
+infile=open("op.txt","rt")
+a=infile.read()
+b=[]
+b=a.split("\n")
+print (b)

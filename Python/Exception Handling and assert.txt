@@ -1,0 +1,17 @@
+class ude(Exception):
+	def __init__(self,msg):
+		self.msg=msg
+	def print_exception(self):
+		print ("User def exception %s",self.msg)
+
+try:
+    a='a'+2
+	raise ude('Message')
+except Exception as e:
+    print (e)
+    print (type(e).__name__)
+
+x=-2
+assert x>0,"X must be positive"  #This throws an error
+
+User defined exception left.

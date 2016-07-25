@@ -1,0 +1,4 @@
+for containers having random access iterators it is O(1)
+for others it is O(n)
+
+for sets it is O(n)

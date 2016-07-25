@@ -13,7 +13,8 @@ using namespace std;
 //1) When to write z[i]>=val  and z[i]=val
 //2) abcabcabc type of string.
 
-vector<ll> z_algo(string s ){//faster
+string s;
+vector<ll> z_algo(){//faster
 ll L = 0, R = 0;
 ll n=s.size();
 vector<ll>z(n);
@@ -33,6 +34,15 @@ for (ll i = 1; i < n; i++) {
   }
 }
 return z;
+}
+
+bool ismatch(string s1,string s2){
+string s=s1+"$"+s2;
+vector<ll>z=z_algo();
+for(i=0;i<z.size();i++)
+if(z[i]==s1.size())
+return true;
+return false;
 }
 
 vector<ll> z_algorithm(string s){//little bit slower
@@ -55,7 +65,7 @@ return z;
 int main()
 {
 //freopen("IP.txt","r",stdin);
-
+cout<<ismatch("hollall","all");
 }
 
 

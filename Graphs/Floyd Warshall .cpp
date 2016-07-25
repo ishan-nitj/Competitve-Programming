@@ -42,12 +42,14 @@ if(gr[i][k]+gr[k][j]<gr[i][j])
     path[i][j].pb(k);
 gr[i][j]=min(gr[i][j],gr[i][k]+gr[k][j]);
 }
+
 for(i=1;i<=nodes;i++){
 for(j=1;j<=nodes;j++){
 cout<<gr[i][j]<<" ";
 }
 cout<<endl;
 }
+
 for(i=1;i<=nodes;i++)
 for(j=1;j<=nodes;j++){
     cout<<"Path from "<<i<<"to"<<j<<":"<<endl;

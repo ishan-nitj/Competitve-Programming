@@ -1,4 +1,6 @@
 //This is an optimized algorithm running in O(E*log(V))//
+//note that pq may contain duplicates
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

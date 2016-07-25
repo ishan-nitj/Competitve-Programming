@@ -9,4 +9,7 @@ unordered_set
 
 multimap and unordered_multimap donot have [] .
 
-     
+user ump.reserve(2*n) with unordered maps for improved performance.
+
+According to reserve() documentation, it rehashes the hash table for better bucket distribution.
+

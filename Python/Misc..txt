@@ -1,0 +1,68 @@
+#None is variable of type <class 'NoneType'>.None is the return type of function with no return statement.
+
+#In functions parameters are passed by reference
+
+#Variable-length arguments:You may need to process a function for more arguments than you specified while defining the function. 
+
+# Function definition is here
+def printinfo( arg1, *vartuple ):
+   "This prints a variable passed arguments"
+   print ("Output is: ")
+   print (arg1)
+   for var in vartuple:
+      print (var)
+   return
+
+# Now you can call printinfo function
+printinfo( 10 )
+printinfo( 70, 60, 50 )
+
+
+#Note that the datatype of a variable can change during runtime
+a=2
+print type(a) int 
+a=a+0.2
+print type(a) float
+
+#Note that 'in' is a membership function which checks for memebrship in seq. such as lists, tuples and strings.
+
+#Python is Interpreted: Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
+
+#Multi-Line Statements:
+total = item_one + \
+        item_two + \
+        item_three
+
+#Quotation in Python:
+word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph. It is
+made up of multiple lines and sentences."""
+
+#2 new function passing techniqes:
+Keyword arguments:Keyword arguments are related to the function calls. When you use keyword arguments in a function call, the caller identifies the arguments by the parameter name.
+# Function definition is here
+def printinfo( name, age ):
+   "This prints a passed info into this function"
+   print ("Name: ", name)
+   print ("Age ", age)
+   return
+
+# Now you can call printinfo function
+printinfo( age=50, name="miki" )
+
+#$ chmod +x test.py     # This is to make file executable
+$./test.py
+
+#int(x [,base]):
+Converts x to an integer. base specifies the base if x is a string.
+
+a=int("1010010",2)
+print a
+#82
+
+Left:
+Functions related to numbers:http://www.tutorialspoint.com/python3/python_numbers.htm
+
+none ,is, is not # for none use is and is not
+

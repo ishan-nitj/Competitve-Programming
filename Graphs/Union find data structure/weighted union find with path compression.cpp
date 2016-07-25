@@ -14,16 +14,16 @@ using namespace std;
 vector<ll>arr,size;
 
 ll root(ll i){//
-while(arr[ i ] != i)
-{
-arr[ i ] = arr[ arr[ i ] ] ;//we are also changing the exiting arr
-i = arr[ i ];
-}
-return i;
+    while(arr[ i ] != i)
+    {
+        arr[ i ] = arr[ arr[ i ] ] ;//we are also changing the existing arr
+        i = arr[ i ];
+    }
+    return i;
 }
 
 bool find_(ll x,ll y){//
-return(root(x)==root(y));
+    return(root(x)==root(y));
 }
 
 void weightedunion(ll A,ll B)// note that here the size of existing roots which are getting merged are not getting
@@ -31,29 +31,29 @@ void weightedunion(ll A,ll B)// note that here the size of existing roots which 
 {
     ll root_A = root(A);
     ll root_B = root(B);
-    if(size[root_A] < size[root_B ])
+    if(size[root_A] < size[root_B ])//kyunki kam elements move karne pad rhe hain,isliye a ko move kr rhen hain
     {
-arr[ root_A ] = arr[root_B];
-size[root_B] += size[root_A];
-}
+        arr[ root_A ] = arr[root_B];
+        size[root_B] += size[root_A];
+    }
     else
     {
-arr[ root_B ] = arr[root_A];
-size[root_A] += size[root_B];
-}
+        arr[ root_B ] = arr[root_A];
+        size[root_A] += size[root_B];
+    }
 }
 
 int main(){
-ll n,i;cin>>(n);
-size.resize(n+1);
-arr.resize(n+1);
-rep(i,n+1){
-arr[i]=i;
-size[i]=1;
-}
-// Initially root of each element is the element itself
-ll k;cin>>(k);//no of queries
-while(k--){
-ll i,j;cin>>i>>j;
-}
+    ll n,i;cin>>(n);
+    size.resize(n+1);
+    arr.resize(n+1);
+    rep(i,n+1){
+        arr[i]=i;
+        size[i]=1;
+    }
+    // Initially root of each element is the element itself
+    ll k;cin>>(k);//no of queries
+    while(k--){
+        ll i,j;cin>>i>>j;
+    }
 }

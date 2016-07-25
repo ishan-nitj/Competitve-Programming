@@ -1,0 +1,199 @@
+Topics Done:
+
+2)Binary Search=>Use fflush(stdout); after cout
+==>Can use BS after sorting the array
+==>Zoom in BS
+==>http://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+==>http://www.geeksforgeeks.org/binary-search-preferred-ternary-search/
+
+3)STL containers=>Revise once more
+
+4)Bitwise operators=>
+=>binary representation of (x-1) can be obtained by simply flipping all the bits to the right of rightmost 1 in x and also including the rightmost 1
+
+=>Setting,clearing and toggling a bit.
+
+=>Counting no. of ones in binary representation of a number.
+
+7)Hashing
+==>http://www.csinterview.com/find-duplicate-elements-in-array-k-distance/
+//O(k) space
+
+6)Heap
+==>Build heap complexity
+No of nodes at height h in complete binary tree=(n+1)/(2^(h+1)).Then use AGP.
+
+10)Greedy 
+==>Proof of activity selection problem:http://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/
+==>Greedy soln. doesnt work for finding min. no. of coins to make a particular denomination.
+==>optimal merge and huffman
+==>job scheduling:https://www.youtube.com/watch?v=yHsDLU3ZqNM
+
+4)Sorting:
+==>Check readme once
+==>Two pointer:Given an array A[] and a number x, check for pair in A[] with sum as x
+==>http://www.geeksforgeeks.org/sort-array-wave-form-2/  ==>Linear Time
+==>http://www.geeksforgeeks.org/nearly-sorted-algorithm/ ==>using heap
+==>union and intersection of 2 sorted arrays.
+==>Lower bound for comparison based sortings:https://www.youtube.com/watch?v=voftwFuqH4I
+
+1)Divide and Conquer
+==>Counting inversions
+==>http://www.geeksforgeeks.org/median-of-two-sorted-arrays/ ==> Take care when n is even
+
+16)Analysis of algos,P-Np
+
+17)Trie
+
+8)Stacks and queues
+==>Infix to postfix==>https://www.youtube.com/watch?v=vq-nUF0G4fI 9:42 and 17:50
+-- Take care when stack has operators while scanning has completed.Also take care of not comparing '(' while comparing precedence of operators.
+==>K stacks or queues w/i a single array:use three extra arrays:next,isempty,top(front or back for queue) 
+==>Queue using stacks:https://www.youtube.com/watch?v=b2VGj2jJrxI
+==>Stack using 2 queues:https://www.youtube.com/watch?v=Wn45fJKBTTc
+
+19)Linked Lists
+==>p,prev,next
+==>Check if head pointer is to changed
+==>Check if the list is empty or not
+==>Check for last node
+==>One page notes
+==>Merge sort is often preferred for sorting a linked list. The slow random-access performance of a linked list makes some other algorithms (such as quicksort) perform poorly, and others (such as heapsort) completely impossible.
+==>Quicksort can be implemented for Linked List only when we can pick a fixed point as pivot (like last element in above implementation). Random QuickSort cannot be efficiently implemented for Linked Lists by picking random pivot.
+Complexity remains same as that of arrays
+==>Insertion Sort for Singly Linked List
+==>Use of new and delete in C++.
+==> Cycle Detection:https://www.youtube.com/watch?v=apIw0Opq5nk
+
+15)Segment tree 
+==>See the code for update
+
+5)Number Theory
+==>Properties of ETF
+==>See proof of FLT
+==>There are infinitely many values of  n (known as Carmichael numbers) for which all values of a for which gcd(a,n)=1 are Fermat liars. ==>Miller Rabin Primality Test and Fermat's Primality Test
+==>klog^3n- Miller Rabin
+==>Diophantine Eqn:For finding general soln:+-abk
+==>Sieve of Eratosthenes on the segment
+
+9)Union Find
+Weighted union find with path compression
+
+14)Dp
+==>remember when someone tells you addition is O(n) operations, he does not mean n is value of input, but n denotes the size of input (bits required to represent N
+2 coin change
+2 knapsack
+LCS(2)
+LIS(1)
+Kadane's Algo is used to find the subarray with maximum sum
+**Never use LCS to find LPS (S-->substring)
+Palindromes:
+Substring:Use function ispalin
+Subsequence:Similar to LCS(S-->Subsequence)
+MCM==>Time Complexity O(n^3)
+LIS:http://codeforces.com/blog/entry/8761?#comment-144867
+BIT masking
+OCBST==>Can make complexity O(n^3) http://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/
+Catalan Number==>1) Count the number of expressions containing n pairs of parentheses which are correctly matched.
+2)Count the number of possible Binary Search Trees with n keys (See this)
+Formula (2n Chose n)/(n+1)  and C0=1
+Edit Distance
+Subset Sum==>Set 0th bit and bit=bit|bit<<no
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+21)Programming in C
+variable name can only start with alphabet or _
+precedence of * is L to R and that of = is R to L
+% with -ve no's:Sign same as that of number
+bool size:1 byte
+-> Has highest precendence
+
+Left:
+* ++
+storage class
+
+20)Trees
+
+13)Strings
+KMP implementation Revise==>2 points
+Rabin Karp :Take base =27
+LCS and LPS using BS+Rolling hash.Note LCS cant be used to find LPS.
+Here S-->Substring
+
+16)B-tree
+
+9)Graphs
+==>Check whether the graph is connected or not.
+==>In topo sort take care of the vertices not used.DFSmain in topo sort
+==>Undirected graphs:For every visited vertex ‘v’, if there is an adjacent ‘u’ such that u is already visited and u is not parent of v, then there is a cycle in graph. Such an edge is called a back edge.An undirected graph can only have tree and back edges.
+==>**If there is no vertex with in-degree 0,then there is a cycle in digraph.
+//This cannot be used to detect cycle in a digraph.
+==>http://www.geeksforgeeks.org/find-k-cores-graph/ :use dfs
+==>http://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/ : use topo sort
+==>Dijkstra :E+VlgV Kruskal :ElgE Prims:V+ElgV
+==>Cycle detection using disjoint set.
+==>Bellman Ford code. 
+==>Bellman Ford doesnt work for undirected graphs.
+==>dfs can be used to find depth of each node of tree not graph.
+
+19)Game theory
+
+20)Programming in C++
+
+21)Programming in pYthon
+
+22)Regarding projects
+
+17)BST
+==>Three types of tree traversals.Use inorder traversal.
+==>Inorder Successor:If a node has right subtree ,find min. element in the right subtree
+					:If a node doesnt has right subtree, find nearest ancestor for which the node will be in the left subtree.
+					(This can be done with maintaining parent pointers and without maintaining parent pointers==>Traverse the tree from 					ancestor to that particular node)
+==>Deletion in BST:http://quiz.geeksforgeeks.org/binary-search-tree-set-2-delete/
+==>Order statistics in BST:Only store the number of children in the left subtree.
+==>Binary Tree to Binary Search Tree Conversion==>Using inorder traversal.
+==>http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/
+
+
+********
+
+Left:
+Closest pair of points
+
+Graphs==>Lowest Common Ancestor,Articulations Points,http://www.geeksforgeeks.org/find-a-mother-vertex-in-a-graph/
+
+http://www.geeksforgeeks.org/all-topological-sorts-of-a-directed-acyclic-graph/
+
+vertex cover
+
+lru
+
+https://www.topcoder.com/community/data-science/data-science-tutorials/assignment-problem-and-hungarian-algorithm/s
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Implementation:
+quicksort
+--Disjoint Set
+median of 2 sorted arrays
+Diophantine Eqn
+--Miller Rabin
+Some dp problems:Edit distance
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+MSB in constant time.Time complexity of log2(x).http://codeforces.com/blog/entry/10330
+
+Inplace mergesort
+
+**Hashing from DAA
+
+kth largest in linear time
+
+http://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/
+
+All permutations using recursion-implement
+
+git code
+
+http://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/

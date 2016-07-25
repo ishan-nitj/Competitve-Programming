@@ -1,3 +1,6 @@
+//Time complexity of DFS is O(V + E)
+//Applications:
+//1) To find no. of connected components
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

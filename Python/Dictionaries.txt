@@ -1,0 +1,17 @@
+Dictionary:
+unordered,can have data of various types,Curly braces,looping a dictionary prints key values, in dict #checks for key values
+It is an error to reference a key that doesnot exists in dictionary
+
+Some members functions and built in functions:
+del dic[element]
+print d.items()// returns list of tuples,d.keys(),d.values()#returns list
+
+The method get() returns a value for the given key. If key is not available then returns default value=None.
+
+to iterate over a dict: key,val in dict.items() and key in dict
+
+Syntax
+Following is the syntax for get() method -
+dict.get(key, default=None)
+
+

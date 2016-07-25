@@ -1,0 +1,14 @@
+A module is a single file (or files) that are imported under one import and used. e.g.
+
+import my_module
+A package is a collection of modules in directories that give a package hierarchy.
+
+from my_package.timing.danger.internets import function_of_love
+
+if we use import math ,we have to use math.sqrt()
+if we use from math import *  or frrom math import sqrt,we can directly use sqrt()
+
+from random import * -randint(1,3) -generates a random number b/w 1 and 3
+
+everything = dir(math) # Sets everything to a list of things from 
+print everything 

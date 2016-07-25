@@ -1,0 +1,34 @@
+Unicode String
+In Python 3, all strings are represented in Unicode.In Python 2 are stored internally as 8-bit ASCII, hence it is required to attach 'u' to make it Unicode. It is no longer necessary now.
+
+Python does not support a character type; these are treated as strings of length one, thus also considered a substring.\
+
+a[1:4] will give ell for a="Hello" (from 1 to 3)
+
+Quotation in Python:
+word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph. It is
+made up of multiple lines and sentences."""
+
+Use \  for escaping characters
+
+can use [] with strings for accessing but not for modifying
+
+member functions and other built in functions:
+s.len()  or len(s),s.lower() , s.upper()// upper and lower donot change the original string
+s.isalpha() returns false if strings contains numbers
+list=s.split("delimitor")
+lstrip ,rstrip,strip #for stripping \n
+startswith:determines if a string starts with a given substring
+
++ can be used to concatenate strings or print strings + str(number) 
+
+int(string)# converts string into int only if it contains integers
+
+in can be used to find whether a substring exists in a string or to get posn: use find(substring,start pos)
+
+ord(x):converts a character to its ineterg value
+
+See for more string functions:
+http://www.tutorialspoint.com/python3/python_strings.htm

@@ -2,17 +2,26 @@
 //articulation points
 //kosaraju algorithm
 
-pi(predecessor) in DFS and dijkstra .
+Some new points:
+http://www.geeksforgeeks.org/check-if-two-nodes-are-on-same-path-in-a-tree/
+Time Complexity – O(n) for preprocessing and O(1) per query.
+
+==>dfs can be used to find depth of each node of a tree only not  graph.
+
+v is parent of u if :
+Intime[v] < Intime[u] and Outtime[v] > Outtime[u]
+
+1.1)Depth First Search:
+An undirected graph can only have tree and backedges.Cycle detection using DFS in undirected graphs:
+For every visited vertex ‘v’, if there is an adjacent ‘u’ such that u is already visited and u is not parent of v, then there is a cycle in graph. Such an edge is called a back edge.An undirected graph can only have tree and back edges.
+
+Marking pi(predecessor) in DFS and dijkstra.
 
 A node a is a ancestor of another node b in DFS if a is ancestor of b in DFS tree.
 
 To mark arrival and departure time in DFS,use the same global variable.
 
 A DFS tree represents the tree edges of a graph.
- 
-Cycle detection using DFS in undirected graphs:
-For every visited vertex ‘v’, if there is an adjacent ‘u’ such that u is already visited and u is not parent of v, then there is a cycle in graph. Such an edge is 
-called a back edge.An undirected graph can only have tree and back edges.
 
 How to check whether a node is a part of cycle in a directed graph?
 Start DFS from that node. If there is a back edge to that node, the node is a part of a cycle.
@@ -23,25 +32,28 @@ If there exists back edge in a graph , then there is cycle.Use definition of bac
 Classification of edges into 4 categories for directed graphs.Note that this concept of labeling edges is relative  and depends on the from where we start DFS.
 
 NO back edge=>NO cycle
-Back edge =>cycle.(holds good for both directed and undirected graphs) 
+Back edge =>cycle(holds good for both directed and undirected graphs) 
+
+We can count the no of connected components in a graph using DFS.
 
 If we sort the vertices in decreasing order of their finish times of DCG, there can be an edge from right to left.If not ,then the graph would be acyclic.
 
+1.2)Topological Sorting:
 Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. 
 Topological Sorting for a graph is not possible if the graph is not a DAG.(sort the vertices in decreasing order of their finish times to get  topologicla sort of the
 graph.)
 
+1.3)General
+
 **If there is no vertex with in-degree 0,then there is a cycle in digraph.
+This cannot be used to detect cycle in a digraph.
 
 It is easy to see that the first vertex can be any vertex which does not use any incoming edges and it must exist at least one such vertex, 
-because DAGs do not have directed cycles. If we pick any such vertex, put it in the resulting order, and delete it from the graph, the resulting graph will remain a 
-DAG and we can continue this process while the graph has at least one vertex.(Slow)
-
-We can count the no of connected components in a graph using DFS.
+because DAGs do not have directed cycles. If we pick any such vertex, put it in the resulting order, and delete it from the graph, the resulting graph will remain a DAG and we can continue this process while the graph has at least one vertex.(Slow)
 
 We can use flyod warshall to detect which nodes form part of negative cycle in a graph.See notes.
 
-Running time of kruskal:eloge(from sorting)+vlogv(dsu)//assuming find operation take O(v)
+Running time of kruskal:eloge(from sorting)+//**vlogv**//(dsu)//assuming find operation take O(v)//Check
 Running time of Prims:vloge(if we are using pq)
 
 Notes from MIT lectures:
@@ -91,5 +103,4 @@ Bidirectional search-left
 
 Lec-19
 delta(s,v)=min(paths from s to u)+weight(u,v)// works only for DAGS//else loop runs infinite time 
-delta(s,s)=0 
- 
+delta(s,s)=0

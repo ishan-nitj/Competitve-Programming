@@ -1,0 +1,22 @@
+Motivation:
+1)Finding the next greater element for each element
+
+2)Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.
+
+Example:
+Input :
+arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}
+k = 3
+Output :
+3 3 4 5 5 5 6
+
+problem link:http://www.spoj.com/problems/ARRAYSUB/
+
+Other Problems links:
+http://codeforces.com/contest/5/problem/C
+http://codeforces.com/problemset/problem/280/B
+https://www.codechef.com/problems/CHEFTOWN
+http://codeforces.com/contest/548/problem/D
+
+Note:While using stack and deque,always first check whether deque or stack is empty or not.
+

@@ -49,16 +49,13 @@ The resize() function makes vector contain the required number of elements. If y
  vector<int> v3(v1);
 
  It should be clear to you now how to create the two-dimensional vector of given size:
- int N, N;
- // ...
- vector< vector<int> > Matrix(N, vector<int>(M, -1));
+int N, N;
+// ...
+vector< vector<int> > Matrix(N, vector<int>(M, -1));
 
- v1.swap(v2) // Swaps the contents of v1 and v2.
+v1.swap(v2) // Swaps the contents of v1 and v2.
 
- v.insert(v.begin()+2 ,23)// Shifting automatically done;
-
-
-
+v.insert(v.begin()+2 ,23)// Shifting automatically done;
 
 at(): Returns the reference to the element at a particular position (can also be done using ‘[ ]’ operator).
 Its time complexity is O(1).

@@ -1,0 +1,11 @@
+class Student:
+    id=12
+    def __init__(self,a,b):
+        self.name=a
+        self.roll_no=b
+    def __str__(self):
+       return (self.name+" "+str(self.roll_no))
+
+s=Student('Ishan',24)
+print(s)
+print(s.name,s.id)

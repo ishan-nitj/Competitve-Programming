@@ -1,0 +1,64 @@
+https://en.wikipedia.org/wiki/Biconnected_component
+
+Pseudocode:
+GetArticulationPoints(i, d)
+    visited[i] = true
+    depth[i] = d
+    low[i] = d
+    childCount = 0
+    isArticulation = false
+    for each ni in adj[i]
+        if not visited[ni]
+            parent[ni] = i
+            GetArticulationPoints(ni, d + 1)
+            childCount = childCount + 1
+            if low[ni] >= depth[i]
+                isArticulation = true
+            low[i] = Min(low[i], low[ni])
+        else if ni <> parent[i]
+            low[i] = Min(low[i], depth[ni])
+    if (parent[i] <> null and isArticulation) or (parent[i] == null and childCount > 1)
+        Output i as articulation point
+
+1)low[v]=Lowest depth of neighbors of all descendants of v(including v) in the depth-first-search tree
+It is initialised to depth[v]
+
+2)For ex:Consider the graph:
+3 3
+1 2
+2 3
+3 1
+Here low[3]=0 low[2]=0 low[1]=0
+
+
+3)Note that low[v] can be equal to depth[parent[v]] if there is a descendent of v that has a path tp parent[v]
+ but not otherwise .Consider the following graph
+4 4
+1 2
+2 3
+3 4
+4 2
+
+4)Case where low[ni]=depth[i]
+Consider the following graph
+4 4
+1 2
+2 3
+3 4
+4 2
+
+Here low[4]=1 low[3]=1 low[2]=1 
+
+Bridge Edge:
+In line 15,if low[ni] > depth[i] (strictly greater) then the edge from i to ni is bridge edge.
+
+To get an idea of why here we are not using >= check the following graph:
+4 4
+1 2
+2 3
+3 4
+4 2
+
+Note that bridge edge cant be part of a cycle
+
+Note that we donot have to take care of root node here.

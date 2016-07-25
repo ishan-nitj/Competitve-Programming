@@ -1,0 +1,8 @@
+tup1 = ('physics', 'chemistry', 1997, 2000)
+Tuples cannot be changes like lists but can be accesed by [],can loop thro' them
+cant sort ,append or reverse,can compare
+
+member functions:
+count and index
+
+using sorted on list of tuples i.e. dic.items() ,we can return dict in key or value sorted manner

@@ -1,0 +1,65 @@
+Problem 1:
+http://www.spoj.com/problems/LINEUP/
+In this problem, dp[i][j] represents max. score we can get using the posns = bits set in j and positioning player i on one of them.
+for every bit set in i i.e. k
+dp[i][j]=max(arr[i][k]+dp[i-1][j/k]) where j/k represents j with kth bit unset
+Note that in this problem we have to use top-down approach since for each every player i, we are only interested in j which has bitcount(of 1)==i+1
+
+Problem 2:
+http://codeforces.com/contest/678/problem/E
+
+In this problem func(idx,no) represents the probabilty of winning of 0 if idx starts the game and the players available are those with bits set in no.
+If idx starts the game,it can have n-1 opponents (atmost)(depends on bits set in no).
+func(idx,no)=for(i=0;i<n;i++){
+bool flag=no&(1<<i);
+if(idx==i || !flag)continue;
+else
+ans=max(ans,arr[idx][i]*func(idx,no&~(1<<i))+arr[i][idx]*func(i,no&~(1<<idx)));}
+
+Problem 3:
+Travelling salesman problem
+
+Problem 4:
+http://codeforces.com/problemset/problem/580/D
+This problem is similar to TSP.
+http://codeforces.com/blog/entry/20376?#comment-252098
+****last dish you ate********
+**use iterative dp here
+
+Problem 5:
+http://www.spoj.com/problems/ASSIGN/
+Very Easy Problem.Similar to LINEUP.Recursive dp to be used because of the same reason as LINEUP.
+
+Problem 6:
+https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/monk-in-the-magical-land/
+Very Easy Problem
+
+Problem 7:
+https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/when-the-integers-got-upset/description/
+//Similar to problem 5
+A good question:
+Let DP[mask][p][q] denote the minimum value of the function we wish to minimize considering only the indices that are active in the mask, such that the last index considered is p and the second last is q.
+DP[mask][p][q] = min(DP[mask][p][q], (A[p]^A[q]^A[r]) * P[bitcount(mask) - 1] + DP[mask ^ (1 << p)][q][r]) for all p that are inactive in mask and for all q and r that are active in mask. This implies that we're going to p having visited r and then q which is why we wish for p to be inactive in mask and q and r to be active.
+
+Problem 8:(from snackdown elmn)
+https://www.codechef.com/SNCKEL16/problems/NUMSET
+
+Problem 9:
+https://www.hackerearth.com/problem/algorithm/sherlock-and-coprime-subset/editorial/
+Smaller version of problem 8
+
+Problem 10:
+https://community.topcoder.com/stat?c=problem_statement&pm=14247
+
+This is a DIV2 1000 problem.
+Note that here recursive dp will give TLE but iterative dp will give AC.
+
+Problem 11:
+https://www.hackerearth.com/problem/algorithm/shil-and-new-year-gift/description/
+Similar to problem 4.Focus on last number added.
+
+Notes:
+When to use iterative dp and when to use recursive dp.
+order of i and j in loop in case of iterative dp.
+
+

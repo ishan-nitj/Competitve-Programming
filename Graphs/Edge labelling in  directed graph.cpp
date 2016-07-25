@@ -1,3 +1,11 @@
+//Use this algo to calculate ancestor parent reln.
+
+//Some new points:
+//http://www.geeksforgeeks.org/check-if-two-nodes-are-on-same-path-in-a-tree/
+//Time Complexity – O(n) for preprocessing and O(1) per query.
+
+
+//Ishan Bansal
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

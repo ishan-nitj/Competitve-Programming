@@ -1,0 +1,15 @@
+Consider the following example:
+Consider a date :13 March 2015 
+The day on this date is friday.
+What will be the day on 13 March 2016.
+
+Ans:It will be Sunday. Because in 2015 there are 365 days and 365%7==1.
+Also since 2016 is a leap year ,so 1 extra day will be added in form of february 29. So there is a total shift of 2 days.
+
+But if we compare dates : 1 Feb 2015 and 1 Feb 2016 ,there will be a shift of only 1 day .
+
+So on basis of it we can tell when two years will be same i.e. same sames days on same dates:
+Try:
+http://codeforces.com/problemset/problem/678/B
+
+

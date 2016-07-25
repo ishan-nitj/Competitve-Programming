@@ -26,6 +26,12 @@ while(scanf("%d",&a)){
 
 }
 
+For ex. We want to input numbers separated with hyphen.
+Ex:124-244
+use scanf("%d-%d",&a,&b);
+
+use to_string and stoll (string to long long)
+
 inputing a string of characters till users enter them
 while(scanf("%c",&ch)!=EOF){
     if(ch>=97 && ch<=122 && prev==' ')

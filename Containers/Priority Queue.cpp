@@ -11,6 +11,7 @@ using namespace std;
 #define fe first
 #define se second
 
+// by default greatest element is at the top
 struct func{
 bool operator()(ll x,ll y){
 return x<y;
@@ -18,6 +19,7 @@ return x<y;
 };
 
 priority_queue<ll,vector<ll>,func>pq;
+
 int main(){
 pq.push(2);
 pq.push(23);
@@ -28,4 +30,4 @@ cout<<pq.empty();
 }
 
 //It arranges for the largest element to be at the top - that is, the element for which func(top_element, any_other_element) is
-never true
+//never true

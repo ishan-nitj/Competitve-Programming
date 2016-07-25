@@ -37,8 +37,5 @@ return etf;
 int main(){
 ll t;sl(t);
 while(t--){
-
 }
-
-
 }

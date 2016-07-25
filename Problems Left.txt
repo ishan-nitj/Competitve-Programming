@@ -1,7 +1,6 @@
 1)Topcoder:4
 1 problem left from the srm recently given.//chairs 
 2qns of srm 685
-3rd qn of srm 689
 
 2)Codejam :7
 Milkshakes,dreary design
@@ -13,20 +12,19 @@ round 1b -2qns
 
 3)Others 40
 DP Problems:9
-https://www.hackerearth.com/code-monk-dynamic-programming-part-ii/problems/ ==>3 qns
-https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/monk-in-the-magical-land/
-https://www.hackerearth.com/code-monk-bit-manipulation/algorithm/when-the-integers-got-upset/
+https://www.hackerearth.com/code-monk-dynamic-programming-part-ii/problems/ ==>2 qns
 https://www.hackerearth.com/code-monk-dynamic-programming/algorithm/samu-and-special-coprime-numbers/
 https://www.hackerearth.com/code-monk-dynamic-programming/algorithm/samu-and-shooting-game/
 https://www.hackerrank.com/contests/may-world-codesprint/challenges/div-and-span
 https://www.hackerearth.com/bitwise-2016/algorithm/relatives/
 
 String Problems:7
-https://www.hackerrank.com/contests/accel-hack/challenges/strings
 https://www.hackerearth.com/code-monk-triessuffix-tree/algorithm/shil-and-lcp-pairsmonk/
-https://www.hackerearth.com/code-monk-triessuffix-tree/algorithm/sonya-and-string-shifts-code-monk-triesuffix-structures/
+https://www.hackerearth.com/problem/algorithm/cats-substrings/description/
 https://www.codechef.com/COOK69/problems/LCPMAX
-https://www.hackerearth.com/bitwise-2016/algorithm/lcs-1/
+#https://www.hackerearth.com/bitwise-2016/algorithm/lcs-1/
+one question of manachar algo
+
 
 Graph Problems:6
 https://www.hackerrank.com/contests/may-world-codesprint/challenges/davaro-and-travelling6
@@ -41,7 +39,7 @@ https://www.hackerrank.com/domains/algorithms/game-theory/difficulty/all/page/1 
 
 Segment Trees:3
 https://www.codechef.com/LTIME34/problems/ARRAYSUM
-https://www.hackerearth.com/code-monk-segment-tree-and-lazy-propagation/problems/  ==>4 qns
+https://www.hackerearth.com/code-monk-segment-tree-and-lazy-propagation/problems/  ==>3 qns
 https://www.hackerearth.com/bitwise-2016/algorithm/fibonacci-coffecients/description/
 
 Number Theory:6
@@ -55,7 +53,6 @@ https://www.hackerearth.com/code-monk-sorting/algorithm/puchi-and-luggage/
 https://www.hackerearth.com/bitwise-2016/algorithm/othello/
 https://www.hackerearth.com/code-monk-computational-geometry/algorithm/aqua-park/
 https://www.hackerearth.com/code-monk-computational-geometry/algorithm/the-maze-runner/
-stack wala qns codeforces me
 ek teamcontest wla qn
 cookoff and ltime ke baki qns jo reh gye wo bhi collect kro
 
@@ -81,11 +78,4 @@ dp on digits of a number
 chinese remainder theorem
 **Chromatic no of  a graph
 Flyod warshall path draw
-
-LCP
-Manachar
-KMP
-Suffix tree
-
-
 

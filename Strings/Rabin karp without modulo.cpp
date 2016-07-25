@@ -50,6 +50,7 @@ sum=sum-val(s[i-1])*pw[window_size-1];
 sum=sum*27+val(s[i+window_size-1]);
 arr[i]=sum;
 }
+
 }
 
 int main(){

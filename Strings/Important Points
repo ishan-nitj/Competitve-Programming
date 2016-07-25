@@ -1,4 +1,11 @@
 When there is a question about string rotation ,concatenate string with itself.
 When there is a question about palindromic string strings ,concatenate string with its palindrome.
+Traversing LCP array.
+$ concatenation-min and max
+min lcp property
 
+https://www.codechef.com/problems/LCPMAX  
 
+An easier version of this question is when you have dont have to apply any bijection.This question can then be solved in qlog(n) using :
+Binary search and hashing.
+ 

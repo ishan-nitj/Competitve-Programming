@@ -1,3 +1,18 @@
 1)vector<int>v={1,2,3}
 2)auto in place of iterator
 3)for(i:v) v must have begin and end
+4)for(auto &it:v)
+it++; // if we want to change the values
+
+//Some inbuilt functions
+
+int main(){
+    ll x=0;
+    cout<<"No of bit set in x "<<__builtin_popcount(x)<<endl;
+    cout<<"No of trailing zeroes in x"<<__builtin_ctz(x)<<endl;
+    cout<<"Least bit which is 1(using 1 based indexing) "<<__builtin_ffs(x)<<endl;
+
+}
+//clock_t start = clock();
+//printf("%.6f\n",double(clock()-start)/CLOCKS_PER_SEC);
+

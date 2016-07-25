@@ -1,5 +1,6 @@
  //O(VE)
- #include <bits/stdc++.h>
+//As the Bellman-Ford algorithm ONLY works on graphs that don't contain any cycles with negative weights this actually means your un-directed graph mustn't contain any edges with negative weight.
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long
 #define sl(n) scanf("%lld",&n)
@@ -56,7 +57,6 @@ for(j=1;j<=nodes;j++){//detecting negative cycle if reachable from start vertex
             if(  (t[j]+it->second) < t[it->first])
                 flag=0;}
 var_val(flag);
-
 }
 
 int main()
