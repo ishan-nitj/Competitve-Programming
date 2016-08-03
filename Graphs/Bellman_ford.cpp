@@ -54,7 +54,7 @@ bool flag=1;
 for(j=1;j<=nodes;j++){//detecting negative cycle if reachable from start vertex
     if(t[j]!=inf)
         for(it=mp[j].begin();it!=mp[j].end();it++)
-            if(  (t[j]+it->second) < t[it->first])
+            if((t[j]+it->second) < t[it->first])
                 flag=0;}
 var_val(flag);
 }
@@ -62,6 +62,7 @@ var_val(flag);
 int main()
 {
 //freopen("IP.txt","r",stdin);
+
 ll x, y, wt,i;
 sl(nodes);
 sl(edges);
@@ -75,7 +76,6 @@ mp[x].push_back(make_pair(y,wt));
 
 ll src;sl(src);
 bellman_ford(mp,src);
-
 
 for(i=1;i<=nodes;i++)
 cout<<i<<" "<<t[i]<<endl;

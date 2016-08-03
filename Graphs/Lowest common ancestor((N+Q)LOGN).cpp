@@ -1,3 +1,4 @@
+//verify code by doing a question
 // https://www.quora.com/Algorithms/What-are-the-specifics-in-implementing-an-O-N-log-N-Lowest-Common-Ancestor-algorithm
 //http://csengerg.github.io/2015/12/24/lowest-common-ancestor.html
 #include <bits/stdc++.h>

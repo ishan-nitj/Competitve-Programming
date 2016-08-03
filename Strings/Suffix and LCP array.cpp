@@ -2,7 +2,7 @@
 //Here the last term in LCP array is zero
 //Applications:
 //1)Finding minimum lexiographic rotation of a string.
-//2)Finding longest palindromic substring.//concatenate : string +'#'+string_reverse ..Here '#' is assumed to have lowest ascii value.
+//2)(verify)Finding longest palindromic substring.//concatenate : string +'#'+string_reverse ..Here '#' is assumed to have lowest ascii value.
 //3)Finding the number of occurrences of a pattern.
 
 #include <bits/stdc++.h>

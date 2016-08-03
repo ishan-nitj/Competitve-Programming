@@ -30,7 +30,6 @@ It is initialised to depth[v]
 3 1
 Here low[3]=0 low[2]=0 low[1]=0
 
-
 3)Note that low[v] can be equal to depth[parent[v]] if there is a descendent of v that has a path tp parent[v]
  but not otherwise .Consider the following graph
 4 4
@@ -59,6 +58,8 @@ To get an idea of why here we are not using >= check the following graph:
 3 4
 4 2
 
-Note that bridge edge cant be part of a cycle
+Here 4-2 is not a bridge edge.
+
+Note that bridge edge cant be part of a cycle.
 
 Note that we donot have to take care of root node here.

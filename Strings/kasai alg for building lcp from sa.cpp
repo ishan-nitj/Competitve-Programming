@@ -40,6 +40,6 @@ vector<int>lcp=kasai(s,sa);
 print_array(lcp,lcp.size());
 }
 
-/* Bazinga */
+/* Bazinga */'/.'
 
 

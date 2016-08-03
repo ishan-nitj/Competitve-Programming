@@ -5,6 +5,8 @@
 Some new points:
 http://www.geeksforgeeks.org/check-if-two-nodes-are-on-same-path-in-a-tree/
 Time Complexity – O(n) for preprocessing and O(1) per query.
+ 
+Read iv points
 
 ==>dfs can be used to find depth of each node of a tree only not  graph.
 

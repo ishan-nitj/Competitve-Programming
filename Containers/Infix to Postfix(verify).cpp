@@ -3,6 +3,7 @@ using namespace std;
 #define ll long long
 #define mag (ll)1e9
 #define mset(x,v) memset(x, v, sizeof(x))
+
 ll precedence(char ch){
     if(ch=='*' ||ch=='/')
         return 2;

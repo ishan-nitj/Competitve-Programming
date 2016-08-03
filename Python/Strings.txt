@@ -28,7 +28,7 @@ int(string)# converts string into int only if it contains integers
 
 in can be used to find whether a substring exists in a string or to get posn: use find(substring,start pos)
 
-ord(x):converts a character to its ineterg value
+ord(x):converts a character to its integer value
 
 See for more string functions:
 http://www.tutorialspoint.com/python3/python_strings.htm

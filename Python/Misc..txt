@@ -5,7 +5,7 @@
 #Variable-length arguments:You may need to process a function for more arguments than you specified while defining the function. 
 
 # Function definition is here
-def printinfo( arg1, *vartuple ):
+def printinfo(arg1, *vartuple):
    "This prints a variable passed arguments"
    print ("Output is: ")
    print (arg1)

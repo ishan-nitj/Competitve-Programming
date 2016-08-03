@@ -14,7 +14,6 @@ Its value is 1 when the bits are 0001 but memset sets it to 1111
 
 Representing a sequence in terms of bit values. Whether the term is there (1) or not(0).
 
-
 use abs() for ints and fabs() for doubles
 
 getchar() while i/p array of characters.
