@@ -1,0 +1,4 @@
+==>Build heap complexity
+No of nodes at height h in complete binary tree=(n+1)/(2^(h+1)).Then use AGP.
+==>See code for maxheapify
+==>Sort nearly sorted array  http://www.geeksforgeeks.org/nearly-sorted-algorithm/

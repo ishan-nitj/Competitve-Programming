@@ -1,0 +1,37 @@
+==>Check whether the graph is connected or not.
+==>Undirected graphs:For every visited vertex ‘v’, if there is an adjacent ‘u’ such that u is already visited and u is not parent of v, then there is a cycle in graph. Such an edge is called a back edge.An undirected graph can only have tree and back edges.
+==>**If there is no vertex with in-degree 0,then there is a cycle in digraph.
+//This cannot be used to detect cycle in a digraph.
+==>http://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/ : use topo sort
+==>Dijkstra :E+VlgV Kruskal :ElgE Prims:V+ElgV
+==>Cycle detection using disjoint set.
+==>Bellman Ford code. 
+==>Articulation points
+==>Diameter of a tree in linear time: The length of the "longest shortest path" (i.e., the longest graph geodesic) between any two graph vertices of a graph, where is a graph distance.
+==>A vertex cover of an undirected graph is a subset of its vertices such that for every edge (u, v) of the graph, either ‘u’ or ‘v’ is in vertex cover. Although the name is Vertex Cover, the set covers all edges of the given graph. Given an undirected graph, the vertex cover problem is to find minimum size vertex cover.
+==>A graph is biconnected if it doesnot have any art. points
+==>When given tree take care of binary tree or not
+==>Width of a binary tree=>Use BFS
+==>http://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/ :use inorder and preorder traversal to identify the tree
+
+Important:
+**Note the word binary tree
+****==>http://www.geeksforgeeks.org/check-if-two-nodes-are-on-same-path-in-a-tree/
+Time Complexity – O(n) for preprocessing and O(1) per query.
+**==>In topo sort take care of the vertices not used.DFSmain in topo sort
+**==>Bellman Ford doesnt work for undirected graphs.
+**==>dfs can be used to find depth of each node of tree not graph.
+**==>Lca in linear time using depths of node
+****==>Kosaraju Algo:SCC in a digraph.It can be used to check whether graph is SC and also find SCC
+**==>All topological sorts :Use bitmasking
+****==>http://www.geeksforgeeks.org/find-a-mother-vertex-in-a-graph/==>Read proof of correctness
+**==>http://www.geeksforgeeks.org/find-k-cores-graph/ :use dfs
+**==>Diameter of an unweighted binary tree in linear time==>your own algo .Take help from next link.
+**==>http://algorithms.tutorialhorizon.com/diameter-of-a-binary-tree/
+**==>Proof of fllyod warshall:See wiki page
+**==>http://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/
+One traversal has to be inorder
+**==>Count all possible walks from a source to a destination with exactly k edges:use maatrix multiplication.
+****==>Articulation points
+
+****==>Feury algo for printing euler path and cycle

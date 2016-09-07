@@ -1,0 +1,18 @@
+remember when someone tells you addition is O(n) operations, he does not mean n is value of input, but n denotes the size of input (bits required to represent N
+2 coin change
+2 knapsack
+LCS(2)
+LIS(1)
+Kadane's Algo is used to find the subarray with maximum sum
+**Never use LCS to find LPS (S-->substring) Ex:abdpqdba
+Palindromes
+Substring:Use function ispalin
+Subsequence:Similar to LCS(S-->Subsequence)
+MCM==>Time Complexity O(n^3)
+LIS:http://codeforces.com/blog/entry/8761?#comment-144867
+BIT masking
+Catalan Number==>1) Count the number of expressions containing n pairs of parentheses which are correctly matched.
+2)Count the number of possible Binary Search Trees with n keys (See this)
+Formula (2n Chose n)/(n+1)  and C0=1
+Edit Distance
+Subset Sum==>Set 0th bit and bit=bit|bit<<no

@@ -1,0 +1,8 @@
+==>Check readme once
+==>Two pointer:Given an array A[] and a number x, check for pair in A[] with sum as x
+==>http://www.geeksforgeeks.org/sort-array-wave-form-2/  ==>Linear Time
+==>http://www.geeksforgeeks.org/nearly-sorted-algorithm/ ==>using heap
+==>union and intersection of 2 sorted arrays.
+==>Lower bound for comparison based sortings:https://www.youtube.com/watch?v=voftwFuqH4I
+==>http://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/
+==>http://www.geeksforgeeks.org/search-almost-sorted-array/

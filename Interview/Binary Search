@@ -1,0 +1,7 @@
+==>binary search: start<=end
+==>Can use BS after sorting the array
+==>Zoom in BS
+==>http://www.geeksforgeeks.org/find-a-peak-in-a-given-array/ ==>An array element is peak if it is NOT smaller than its neighbors
+==>http://www.geeksforgeeks.org/binary-search-preferred-ternary-search/
+
+==>Use fflush(stdout); after cout

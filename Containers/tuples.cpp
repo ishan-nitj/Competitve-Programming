@@ -17,9 +17,9 @@ using namespace std;
 #define se second
 
 int main(){
-tuple<ll,ll,ll>t1,t2;
-t1=make_tuple(2,30,4);
-cout<<get<0>(t1)<<get<1>(t1)<<get<2>(t1);
-t2=make_tuple(20,0,4);
-auto t=min(t1,t2);//comparison of tuples is in lexiographic order//so we can use std::sort
+	tuple<ll,ll,ll>t1,t2;
+	t1=make_tuple(2,30,4);
+	cout<<get<0>(t1)<<get<1>(t1)<<get<2>(t1);
+	t2=make_tuple(20,0,4);
+	auto t=min(t1,t2);//comparison of tuples is in lexiographic order//so we can use std::sort
 }

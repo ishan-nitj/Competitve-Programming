@@ -1,0 +1,6 @@
+==>Infix to postfix==>https://www.youtube.com/watch?v=vq-nUF0G4fI 9:42 and 17:50
+-- Take care when stack has operators while scanning has completed.Also take care of not comparing '(' while comparing precedence of operators.
+==>K stacks or queues w/i a single array:use three extra arrays:next,isempty,top(front or back for queue) 
+==>Queue using stacks:https://www.youtube.com/watch?v=b2VGj2jJrxI
+==>Stack using 2 queues:https://www.youtube.com/watch?v=Wn45fJKBTTc
+

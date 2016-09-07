@@ -1,16 +1,23 @@
-Constructor must be declared in the public section of the class.
+==>Constructor must be declared in the public section of the class.
  
-In C++, compiler creates a default constructor if we don’t define our own constructor (See this). Compiler created default constructor has empty body, i.e., it doesn’t
- assign default values to data members  
+==>Constructors are of three types :
 
-Compiler also creates a copy constructor if we don’t write our own copy constructor. Unlike default constructor, body of compiler created copy constructor is not 
-empty, it copies all data members of passed object to the object which is being created.
+1)Default Constructor:Default constructor is the constructor which doesn't take any argument. It has no parameter.
+2)Parametrized Constructor:These are the constructors with parameter. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as argument.
+3)Copy Constructor:These are the constructors with parameter. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as argument.
+
+==>In C++, compiler creates a default constructor if we dont define our own constructor . Compiler created default constructor has empty body, i.e., it doesnt assign default values to data members .
+
+==>Read constructor overloading from here:http://www.studytonight.com/cpp/constructors-and-destructors-in-cpp
+Compiler doesnt create a default constructor if we write any constructor even if it is copy constructor. 
+
+==>Compiler also creates a copy constructor if we dont write our own copy constructor. Unlike default constructor, body of compiler created copy constructor is not empty, it copies all data members of passed object to the object which is being created.
 
 In the function defn. of copy constructor-
 integer (integer &i){
 }
 
-What happens when we write only a copy constructor – does compiler create default constructor?
+What happens when we write only a copy constructor  does compiler create default constructor?
 Compiler doesn’t create a default constructor if we write any constructor even if it is copy constructor. 
 
 What about reverse – what happens when we write a normal constructor and don’t write a copy constructor?

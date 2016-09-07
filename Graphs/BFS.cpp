@@ -23,6 +23,7 @@ vector<ll>mp[mag+1];
 bool vst[mag+1];
 
 void BFS(ll start){
+
     queue<ll>q;
     q.push(start);
     vst[start]=1;

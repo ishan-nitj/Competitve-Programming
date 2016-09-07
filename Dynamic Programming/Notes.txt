@@ -20,7 +20,7 @@ Reverland linguistics
 
 ***** always use mset(dp,-1);
 
-******makingiter dp from recursive dp
+******making iter dp from recursive dp
 
 ******dp[i]=ans;
 	  return ans;

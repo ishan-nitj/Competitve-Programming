@@ -23,8 +23,7 @@ List slicing:
 [start:end:stride]
 Where start describes where the slice starts (inclusive), end is where it ends (exclusive), and stride describes the space between items in the sliced list. 
 Default values =0 ,len(list),1
-A negative stride progresses through the list from right to left.
-so to reverse a list use lst[::-1]
+A negative stride progresses through the list from right to left so to reverse a list use lst[::-1]
 
 Lambdas:
 The syntax of lambda functions contains only a single statement, which is as follows :

@@ -1,0 +1,6 @@
+KMP implementation Revise==>2 points
+Rabin Karp :Take base =27
+LCS and LPS using BS+Rolling hash.Note LCS cant be used to find LPS.
+Here S-->Substring
+Sort the suffixes by their 2^i length prefixes
+LCP array

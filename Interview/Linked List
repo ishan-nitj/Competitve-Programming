@@ -1,0 +1,15 @@
+==>p,prev,next
+==>Check if head pointer is to be changed
+==>Check if the list is empty or not
+==>Check for last node
+==>Delete a node in constant time(last node cant be delete this way)
+==>Merge sort is often preferred for sorting a linked list. The slow random-access performance of a linked list makes some other algorithms (such as quicksort) perform poorly, and others (such as heapsort) completely impossible.
+==>Quicksort can be implemented for Linked List only when we can pick a fixed point as pivot (like last element in above implementation). Random QuickSort cannot be efficiently implemented for Linked Lists by picking random pivot.
+Complexity remains same as that of arrays
+==>Insertion Sort for Singly Linked List
+==>Use of new and delete in C++.
+==>Hashmap with DLL ==>LRU cache //pretty cool 
+==>Cycle Detection:https://www.youtube.com/watch?v=apIw0Opq5nk
+==>BS in linked list==>Cant do in logn time
+==>MS in linked list(O(nlogn)
+

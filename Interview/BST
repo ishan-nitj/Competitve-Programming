@@ -1,0 +1,10 @@
+==>Three types of tree traversals.Use of inorder traversal in BST.
+==>Inorder Successor:If a node has right subtree ,find min. element in the right subtree
+					:If a node doesnt has right subtree, find nearest ancestor for which the node will be in the left subtree.
+					(This can be done with maintaining parent pointers and without maintaining parent pointers==>Traverse the tree from 					ancestor to that particular node)
+==>Deletion in BST:http://quiz.geeksforgeeks.org/binary-search-tree-set-2-delete/
+==>Order statistics in BST:Only store the number of children in the left subtree.
+==>Binary Tree to Binary Search Tree Conversion==>Using inorder traversal.
+==>http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/==>make recursively
+==>http://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/==>use logic similar to merging two sorted arrays
+==>http://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/==>make your own approach
