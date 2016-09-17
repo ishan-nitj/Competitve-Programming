@@ -1,6 +1,6 @@
 Date:17 September  2016  
 | SNO | LEVEL | NAME | COMMENTS | DONE ON |  
-|---|---------------|--------------|----------|----|
+|---- |-------|------|----------|---------|
 |1|DIV2 E|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Tried but getting WA
 |2|DIV2 E|[A Simple Task](http://codeforces.com/problemset/problem/558/E)| Need to use lazy propagation|
 |3|DIV2 D|[Vasiliy's Multiset](http://codeforces.com/contest/706/problem/D) |Implement delete function for trie|
