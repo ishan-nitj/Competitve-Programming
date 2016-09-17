@@ -1,0 +1,40 @@
+//Ishan Bansal
+//ishan.nitj on codeforces
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define mset(x,v) memset(x, v, sizeof(x))
+#define pb push_back
+#define dbg(x) cout<<#x<<" "<<x<<endl;
+#define mag 5000000
+
+bool isEqwt(string a,string b){
+    if(a.size()%2==1)
+        return a==b;
+    //return true;
+    else if(a.size()%2==0)
+    {
+        string a1,a2,b1,b2;
+        a1=a.substr(0,a.size()/2);
+        a2=a.substr(a.size()/2,a.size()/2);
+        b1=b.substr(0,b.size()/2);
+        b2=b.substr(b.size()/2,b.size()/2);
+        ll r=(rand()%2);
+        if(r==0)
+            return ((isEqwt(a1,b1) && isEqwt(a2,b2)) || (isEqwt(a1,b2) && isEqwt(a2,b1)) );
+        else
+            return ((isEqwt(a1,b2) && isEqwt(a2,b1)) || (isEqwt(a1,b1) && isEqwt(a2,b2)) ); 
+    }
+
+
+}
+char tmp1[mag],tmp2[mag];
+
+int main(){
+    scanf("%s %s",tmp1,tmp2);
+    string a,b;a=tmp1;b=tmp2;
+    if(isEqwt(a,b))
+        printf("YES");
+    else
+        printf("NO");
+}

@@ -52,16 +52,40 @@ void update(ll node,ll st,ll en,ll idx,ll val){
 }
 
 
+void updateRange(int node, int start, int end, int l, int r, int val)
+{
+    // out of range
+    if (start > end || start > r || end < l)
+        return;
+
+    // Current node is a leaf node
+    if (start == end)
+    {
+        // Add the difference to current node
+        tree[node] += val;
+        return;
+    }
+
+    // If not a leaf node, recur for children.
+    int mid = (start + end) / 2;
+    updateRange(node*2, start, mid, l, r, val);
+    updateRange(node*2 + 1, mid + 1, end, l, r, val);
+
+    // Use the result of children calls to update this node
+    tree[node] = tree[node*2] + tree[node*2+1];
+}
+
+
 int main(){
-ll n;cin>>n;
-for(ll i=1;i<=n;i++)
-cin>>arr[i];
-build(1,1,n);
-ll q1,q2;cin>>q1>>q2;
-while(q1--){//update queries
-ll x,y;cin>>x>>y;update(1,1,n,x,y);
-}
-while(q2--){//sum queries
-ll x,y;cin>>x>>y;cout<<query(1,1,n,x,y)<<endl;
-}
+    ll n;cin>>n;
+    for(ll i=1;i<=n;i++)
+        cin>>arr[i];
+    build(1,1,n);
+    ll q1,q2;cin>>q1>>q2;
+    while(q1--){//update queries
+        ll x,y;cin>>x>>y;update(1,1,n,x,y);
+    }
+    while(q2--){//sum queries
+        ll x,y;cin>>x>>y;cout<<query(1,1,n,x,y)<<endl;
+    }
 }
