@@ -11,7 +11,7 @@ Date:17 September  2016
 |7|NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenges/jesse-and-two-strings-)|CodeAgon|
 |8|NA|[Rust and his transfer](https://www.hackerrank.com/contests/codeagon/challenges/rust-transfer)|CodeAgon|
 |9|NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
-|10|DIV2 C|[Geomtric Progression](http://codeforces.com/problemset/problem/567/C)|Unread|
+|10|DIV2 C|~~Geomtric Progression~~|Done|
 |11|DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
 |12|DIV2 C|[Amr and the chemistry](http://codeforces.com/problemset/problem/558/C)|Unread|
 |13|DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
@@ -23,6 +23,7 @@ Date:17 September  2016
 19|NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
 20|NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
 21|NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
+22|NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
 
 Tutorials:<br/>
 [Segment Trees from emax](https://translate.yandex.com/translate?url=http%3A%2F%2Fe-maxx.ru%2Falgo%2Fsegment_tree&lang=ru-en)
