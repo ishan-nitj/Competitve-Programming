@@ -13,9 +13,9 @@ using namespace std;
 #define mag 100000
 // 1 based indexing
 //In update ,it also updates arr.
-ll tree[2*mag],arr[mag+1];
+ll tree[4*mag],arr[mag+1];
 
-void build(ll node,ll st,ll en){// call with node=1
+void build(ll node,ll st,ll en){// call with node=1//Time complexity O(n)
     if(st==en)
         tree[node]=arr[st];
     else{

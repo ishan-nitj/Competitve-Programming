@@ -18,6 +18,9 @@ Date:17 September  2016
 |14|DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
 |15|DIV2 D|[Bear and the blocks](http://codeforces.com/problemset/problem/573/B)|Try Again|
 |16|DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
+|17|NA|[Shingami and Apples](https://www.codechef.com/SIC2016/problems/SHINI)|DP|
+18|NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
+
 Tutorials:<br/>
 [Segment Trees from emax](https://translate.yandex.com/translate?url=http%3A%2F%2Fe-maxx.ru%2Falgo%2Fsegment_tree&lang=ru-en)
 

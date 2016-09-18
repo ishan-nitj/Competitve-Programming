@@ -25,6 +25,10 @@ Reverland linguistics
 ******dp[i]=ans;
 	  return ans;
 
+**building recurrence reln.
+
+SIC2016  --------> but top down dp
+
 DP on trees:
 adding new leaf
 considering subtrees
