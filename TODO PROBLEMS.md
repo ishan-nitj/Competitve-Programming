@@ -20,7 +20,7 @@ Date:17 September  2016
 |16|DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
 |17|NA|[Shingami and Apples](https://www.codechef.com/SIC2016/problems/SHINI)|DP|
 18|NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
-19|NA|[Safe Squares](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
+19|NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
 20|NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
 21|NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
 
