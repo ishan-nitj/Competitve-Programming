@@ -11,7 +11,7 @@ Date:17 September  2016
 |7|NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenges/jesse-and-two-strings-)|CodeAgon|
 |8|NA|[Rust and his transfer](https://www.hackerrank.com/contests/codeagon/challenges/rust-transfer)|CodeAgon|
 |9|NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
-|10|DIV2 C|~~Geomtric Progression~~|Done|
+|10|DIV2 C|~~Geometric Progression~~|Done|
 |11|DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
 |12|DIV2 C|[Amr and the chemistry](http://codeforces.com/problemset/problem/558/C)|Unread|
 |13|DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
