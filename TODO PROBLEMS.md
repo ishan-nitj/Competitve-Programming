@@ -18,13 +18,14 @@ Date:17 September  2016
 |14|DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
 |15|DIV2 D|[Bear and the blocks](http://codeforces.com/problemset/problem/573/B)|Try Again|
 |16|DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
-|17|NA|[Shingami and Apples](https://www.codechef.com/SIC2016/problems/SHINI)|DP|
+|17|NA|~~Shingami and Apples~~|DP|
 18|NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
 19|NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
 20|NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
 21|NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
 22|NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
-
+23|DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
+24|DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
 Tutorials:<br/>
 [Segment Trees from emax](https://translate.yandex.com/translate?url=http%3A%2F%2Fe-maxx.ru%2Falgo%2Fsegment_tree&lang=ru-en)
 
