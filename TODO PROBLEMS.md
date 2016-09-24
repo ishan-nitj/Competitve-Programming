@@ -1,31 +1,38 @@
 Date:17 September  2016  
 
-| SNO | LEVEL | NAME | COMMENTS | DONE ON |  
-|---- |-------|------|----------|---------|
-|1|DIV2 E|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Tried but getting WA
-|2|DIV2 E|[A Simple Task](http://codeforces.com/problemset/problem/558/E)| Need to use lazy propagation|
-|3|DIV2 D|[Vasiliy's Multiset](http://codeforces.com/contest/706/problem/D) |Implement delete function for trie|
-|4|DIV2 D|[Directed Roads](http://codeforces.com/contest/711/problem/D) |Graph Problem|
-|5|DIV2 C|[Pashmak and buses](http://codeforces.com/contest/459/problem/C)|Pigeon Hole Principle|
-|6|NA|[LCS Returns](https://www.hackerrank.com/contests/hourrank-11/challenges/tutzki-and-lcs)|2nd Problem from Hour Rank|
-|7|NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenges/jesse-and-two-strings-)|CodeAgon|
-|8|NA|[Rust and his transfer](https://www.hackerrank.com/contests/codeagon/challenges/rust-transfer)|CodeAgon|
-|9|NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
-|10|DIV2 C|~~Geometric Progression~~|Done|
-|11|DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
-|12|DIV2 C|[Amr and the chemistry](http://codeforces.com/problemset/problem/558/C)|Unread|
-|13|DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
-|14|DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
-|15|DIV2 D|[Bear and the blocks](http://codeforces.com/problemset/problem/573/B)|Try Again|
-|16|DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
-|17|NA|~~Shingami and Apples~~|DP|
-18|NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
-19|NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
-20|NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
-21|NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
-22|NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
-23|DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
-24|DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
+LEVEL | NAME | COMMENTS | DONE ON |  
+-------|------|----------|---------|
+NA|[Gabba sprint ](https://www.codechef.com/TSTAMR15/problems/AMR14I)|ICPC|
+NA|[Kiwi Number](https://www.codechef.com/TSTAMR15/problems/AMR14E)|ICPC|
+DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
+DIV2 E|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Tried but getting WA
+DIV2 E|[A Simple Task](http://codeforces.com/problemset/problem/558/E)| Need to use lazy propagation|
+DIV2 D|[Vasiliy's Multiset](http://codeforces.com/contest/706/problem/D) |Implement delete function for trie|
+DIV2 D|[Directed Roads](http://codeforces.com/contest/711/problem/D) |Graph Problem|
+DIV2 C|[Pashmak and buses](http://codeforces.com/contest/459/problem/C)|Pigeon Hole Principle|
+NA|[LCS Returns](https://www.hackerrank.com/contests/hourrank-11/challenges/tutzki-and-lcs)|2nd Problem from Hour Rank|
+NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenges/jesse-and-two-strings-)|CodeAgon|
+NA|[Rust and his transfer](https://www.hackerrank.com/contests/codeagon/challenges/rust-transfer)|CodeAgon|
+NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
+DIV2 C|~~Geometric Progression~~|Done|
+DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
+DIV2 C|[Amr and the chemistry](http://codeforces.com/problemset/problem/558/C)|Unread|
+DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
+DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
+DIV2 D|[Bear and the blocks](http://codeforces.com/problemset/problem/573/B)|Try Again|
+NA|~~Shingami and Apples~~|DP|
+NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
+NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
+NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
+NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
+NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
+DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
+DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
+NA|[Dhonis Bowlers ](https://www.codechef.com/TSTAMR15/problems/AMR14C)|ICPC|
+NA|[Devasena ](https://www.codechef.com/ACMAMR15/problems/AMR15B)|ICPC|
+NA|[Kalakeya](https://www.codechef.com/ACMAMR15/problems/AMR15C)|ICPC|
+
+
 Tutorials:<br/>
 [Segment Trees from emax](https://translate.yandex.com/translate?url=http%3A%2F%2Fe-maxx.ru%2Falgo%2Fsegment_tree&lang=ru-en)
 

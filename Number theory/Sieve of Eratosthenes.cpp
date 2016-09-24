@@ -30,7 +30,7 @@ if(isprime[i]==1)// i is prime
     }
 }
 }
-}A
+}
 
 int main(){
 ll i,n;sl(n);
