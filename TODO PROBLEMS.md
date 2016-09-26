@@ -28,7 +28,7 @@ NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/525
 NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
 DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
 DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
-NA|[Dhonis Bowlers ](https://www.codechef.com/TSTAMR15/problems/AMR14C)|ICPC|
+NA|~~Dhonis Bowlers~~|ICPC|
 NA|[Devasena ](https://www.codechef.com/ACMAMR15/problems/AMR15B)|ICPC|
 NA|[Kalakeya](https://www.codechef.com/ACMAMR15/problems/AMR15C)|ICPC|
 
