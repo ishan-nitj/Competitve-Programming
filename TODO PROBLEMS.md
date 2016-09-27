@@ -13,7 +13,7 @@ DIV2 D|[Directed Roads](http://codeforces.com/contest/711/problem/D) |Graph Prob
 DIV2 C|[Pashmak and buses](http://codeforces.com/contest/459/problem/C)|Pigeon Hole Principle|
 NA|[LCS Returns](https://www.hackerrank.com/contests/hourrank-11/challenges/tutzki-and-lcs)|2nd Problem from Hour Rank|
 NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenges/jesse-and-two-strings-)|CodeAgon|
-NA|[Rust and his transfer](https://www.hackerrank.com/contests/codeagon/challenges/rust-transfer)|CodeAgon|
+NA|~~Rust and his transfer~~|CodeAgon|
 NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
 DIV2 C|~~Geometric Progression~~|Done|
 DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
