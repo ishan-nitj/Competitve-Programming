@@ -3,7 +3,7 @@ Date:17 September  2016
 LEVEL | NAME | COMMENTS | DONE ON |  
 -------|------|----------|---------|
 NA|[Gabba sprint ](https://www.codechef.com/TSTAMR15/problems/AMR14I)|ICPC|
-NA|[Kiwi Number](https://www.codechef.com/TSTAMR15/problems/AMR14E)|ICPC|
+NA|~~Kiwi Number~~|ICPC|
 DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
 DIV2 E|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Tried but getting WA
 DIV2 E|[A Simple Task](http://codeforces.com/problemset/problem/558/E)| Need to use lazy propagation|
