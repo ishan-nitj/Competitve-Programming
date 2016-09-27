@@ -29,7 +29,7 @@ NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff
 DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
 DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
 NA|~~Dhonis Bowlers~~|ICPC|
-NA|~~Devasena ~~|ICPC|
+NA|~~Devasena~~|ICPC|
 NA|[Kalakeya](https://www.codechef.com/ACMAMR15/problems/AMR15C)|ICPC|
 
 
