@@ -2,7 +2,7 @@ Date:17 September  2016
 
 LEVEL | NAME | COMMENTS | DONE ON |  
 -------|------|----------|---------|
-NA|[Gabba sprint ](https://www.codechef.com/TSTAMR15/problems/AMR14I)|ICPC|
+NA|~~Gabba sprint~~|ICPC|
 DIV2 C|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Kosaraju|
 DIV2 D|[Vasiliy's Multiset](http://codeforces.com/contest/706/problem/D) |Implement delete function for trie|
 NA|[Counting Strings](https://www.codechef.com/COOK74/problems/TACNTSTR)|CookOff|
@@ -22,7 +22,7 @@ DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
 DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
 DIV2 D|[Bear and the blocks](http://codeforces.com/problemset/problem/573/B)|Try Again|
 NA|~~Shingami and Apples~~|DP|
-NA|[Flash and his Race](https://www.codechef.com/SIC2016/problems/SPEC)|BFS|
+NA|~~Flash and his Race~~|BFS|
 NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
 NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
 NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
