@@ -16,7 +16,7 @@ NA|[Jesse and two string](https://www.hackerrank.com/contests/codeagon/challenge
 NA|~~Rust and his transfer~~|CodeAgon|
 NA|[Sofi's Array](https://www.hackerrank.com/contests/codeagon/challenges/sofi)|CodeAgon(Segment Trees)|
 DIV2 C|~~Geometric Progression~~|Done|
-DIV2 C|[Sorting Railway Cars](http://codeforces.com/contest/606/problem/C)|Try Again|
+DIV2 C|~~Sorting Railway Cars~~||
 DIV2 C|[Amr and the chemistry](http://codeforces.com/problemset/problem/558/C)|Unread|
 DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
 DIV 2 D|[Two Arithmetic Progressions](http://codeforces.com/contest/710/problem/D)|Try Again|
@@ -26,7 +26,7 @@ NA|~~Flash and his Race~~|BFS|
 NA|[Monster Path](https://code.google.com/codejam/contest/6274486/dashboard#s=p0)|APAC|
 NA|[Watson and Intervals](https://code.google.com/codejam/contest/5254487/dashboard#s=p2)|APAC|
 NA|[Sherlock and Watson Gym Secrets](https://code.google.com/codejam/contest/5254487/dashboard#s=p1)|APAC|
-DIV2 C|[Another problem on strings](http://codeforces.com/problemset/problem/165/C)|Try Again|
+DIV2 C|~~Another problem on strings~~||
 DIV2 D|[Once Again...](http://codeforces.com/problemset/problem/583/D)||
 NA|~~Dhonis Bowlers~~|ICPC|
 NA|~~Devasena~~|ICPC|
