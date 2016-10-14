@@ -27,6 +27,12 @@ Reverland linguistics
 
 **building recurrence reln.
 
+**dp[i][j] ==>i,j kisko denote krte hain
+
+**dp in ./execute
+
+**http://codeforces.com/blog/entry/9334#comment-149501
+
 SIC2016  --------> but top down dp
 
 DP on trees:
