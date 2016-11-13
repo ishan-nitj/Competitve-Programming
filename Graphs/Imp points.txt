@@ -78,4 +78,5 @@ http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-a
 
 Beware of iterating over a container (using cont.end())  if it is to be modified.(delete elements or add ,etc)
 
+In bs solutions ,take r slightly greater given limit. 1e18->3e18.
 

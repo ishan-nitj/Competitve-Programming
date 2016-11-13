@@ -1,0 +1,53 @@
+//1 Based indexing
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define mag 100005
+#define dbg(x) cout<<#x<<" "<<x<<endl;
+
+ll arr[1234567];
+vector<ll>block[123456];
+vector<ll>sorted[123456];
+
+int main(){
+    ll n,q;cin>>n>>q;
+    ll i;
+    for(i=1;i<=n;i++)cin>>arr[i];
+    ll no=ceil(sqrt(n));
+    for(i=n+1;i<=no*no;i++)arr[i]=0;
+    for(i=1;i<=no;i++){
+        for(ll j=(i-1)*no+1;j<=no*i;j++){
+            block[i].push_back(arr[j]);
+            sorted[i].push_back(arr[j]);
+        }
+        sort(sorted[i].begin(),sorted[i].end());
+    }
+    ll found;
+    while(q--){
+        ll x,k;cin>>x>>k;
+        for(i=1;i<=no;i++)
+        {
+
+
+            auto pos=lower_bound(sorted[i].begin(),sorted[i].end(),x);
+
+            found=abs(distance(pos,sorted[i].end()));
+
+            k-=found;
+            if(k<=0)
+                break;
+        }
+        k+=found;
+
+        for(auto it:block[i]){
+            if(it>=x){
+                k--;
+                if(k==0){
+                    cout<<it<<endl;
+                    break;}
+            }
+        }
+
+    }
+
+}

@@ -32,6 +32,7 @@ NA|~~Devasena~~|ICPC|
 NA|[Kalakeya](https://www.codechef.com/ACMAMR15/problems/AMR15C)|ICPC|
 DIV2 E|[Three States](http://codeforces.com/contest/591)|Graph Problem|
 
+CF 376 and APAC and ICPC
 
 Tutorials:<br/>
 [Segment Trees from emax](https://translate.yandex.com/translate?url=http%3A%2F%2Fe-maxx.ru%2Falgo%2Fsegment_tree&lang=ru-en)

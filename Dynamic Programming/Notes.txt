@@ -13,6 +13,7 @@ Important questions:
 Buns 
 Bad luck island
 Reverland linguistics
+http://codeforces.com/contest/358/problem/D
 
 *********len ya na len:useful in subsequence also
 
@@ -32,6 +33,10 @@ Reverland linguistics
 **dp in ./execute
 
 **http://codeforces.com/blog/entry/9334#comment-149501
+
+**dp1[i][j] and dp2[i][j]
+
+** dp where we have only enough space to store prev data
 
 SIC2016  --------> but top down dp
 
