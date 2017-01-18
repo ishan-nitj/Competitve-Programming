@@ -1,0 +1,4 @@
+bool check(vector<pair<ll,char> >& vec,vector<pair<ll,char> >::iterator& pos){
+    //dbg(distance(vec.begin(),pos));
+    return (distance(vec.begin(),pos)>=0 && distance(vec.begin(),pos)<distance(vec.begin(),vec.end()));
+}

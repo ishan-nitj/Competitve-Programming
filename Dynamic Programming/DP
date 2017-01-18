@@ -4,7 +4,9 @@ remember when someone tells you addition is O(n) operations, he does not mean n 
 LCS(2)
 LIS(1)
 Kadane's Algo is used to find the subarray with maximum sum
-**Never use LCS to find LPS (S-->substring) Ex:abdpqdba
+**Never use LCS to find LPS (S-->substring) 
+Ex:abdpqdba
+   abdqpdba
 Palindromes
 Substring:Use function ispalin
 Subsequence:Similar to LCS(S-->Subsequence)

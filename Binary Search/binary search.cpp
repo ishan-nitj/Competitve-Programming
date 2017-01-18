@@ -4,12 +4,12 @@ bool binarySearchIter(int A[], int length, int item)
     while (left <= right)  //stops when left>right ------------1
     {
         mid = left + (right - left) / 2;    -----------------2    // finding middle index
-        if (A[mid] == item)
-            return true;                // item found
-        else if (item < A[mid])
-            right = mid - 1;            // recurse on left sub-array
-        else
-            left = mid + 1;             // recurse on right sub-array
+            if (A[mid] == item)
+                return true;                // item found
+            else if (item < A[mid])
+                right = mid - 1;            // recurse on left sub-array
+            else
+                left = mid + 1;             // recurse on right sub-array
     }
     return false;                        // item not found
 }
@@ -22,19 +22,17 @@ See qn :http://codeforces.com/problemset/gymProblem/101021/A
 see:
 
 int main(){
-ll l=1,r=1000000;
-while(l<r){
-ll mid=(l+r+1)/2;
-cout<<mid<<endl;
-fflush(stdout);
-string s;cin>>s;
-if(s==">=")
-l=mid;
-else
-r=mid-1;
+    ll l=1,r=1000000;
+    while(l<r){
+        ll mid=(l+r+1)/2;
+        cout<<mid<<endl;
+        fflush(stdout);
+        string s;cin>>s;
+        if(s==">=")
+            l=mid;
+        else
+            r=mid-1;
+    }
+    cout<<"! "<<l<<endl;
+    fflush(stdout);
 }
-cout<<"! "<<l<<endl;
-fflush(stdout);
-}
-
-

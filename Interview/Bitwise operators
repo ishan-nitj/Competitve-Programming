@@ -1,7 +1,0 @@
-=>binary representation of (x-1) can be obtained by simply flipping all the bits to the right of rightmost 1 in x and also including the rightmost 1
-
-=>Setting,clearing and toggling a bit.
-
-=>Counting no. of ones in binary representation of a number:Faster Approach
-
-

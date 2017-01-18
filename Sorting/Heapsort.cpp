@@ -20,19 +20,19 @@ using namespace std;
 //A max-heap is a complete binary tree in which the value in each internal node is greater than or equal to the values in the
 // children of that node.
 void max_heapify(ll arr[],ll i,ll size){// max heapify does not make entire heap into max heap
-// if both left and right child of a node satisfy max heap property but the node itself does not satisfy maxheap ,if we apply max
-//heapify on it ,the tree with that node as root will be a max heap.
-//O(lgn)
-ll n=size;
-ll l=2*i+1,r=l+1,max=i;
-if(l<=n-1 && arr[l]>arr[i])
-    max=l;
-if(r<=n-1 && arr[r]>arr[max])
-    max=r;
-if(max!=i){
-swap(arr[i],arr[max]);
-max_heapify(arr,max,size);
-}
+	// if both left and right child of a node satisfy max heap property but the node itself does not satisfy maxheap ,if we apply max
+	//heapify on it ,the tree with that node as root will be a max heap.
+	//O(lgn)
+	ll n=size;
+	ll l=2*i+1,r=l+1,max=i;
+	if(l<=n-1 && arr[l]>arr[i])
+		max=l;
+	if(r<=n-1 && arr[r]>arr[max])
+		max=r;
+	if(max!=i){
+	swap(arr[i],arr[max]);
+	max_heapify(arr,max,size);
+	}
 }
 
 void build_maxheap(ll arr[],ll size){//build a max heap using bottom up approach.

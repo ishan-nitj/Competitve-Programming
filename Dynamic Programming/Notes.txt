@@ -1,4 +1,4 @@
-1)Let's take a simple example: Problem: Given an array of integers of size n.We've to answer Q queries.
+(1)Let's take a simple example: Problem: Given an array of integers of size n.We've to answer Q queries.
 Each query consists of 2 integers L and R and we've to print sum of elements of array from L to R(inclusive).
 
 2) Fibonacci no.'s (top down and bottom up approach).
@@ -43,4 +43,4 @@ SIC2016  --------> but top down dp
 DP on trees:
 adding new leaf
 considering subtrees
-iterative dp on trees.Use BFS and go from highest level to lowest(0)(root).
+iterative dp vf trees.Use BFS and go from highest level to lowest(0)(root).

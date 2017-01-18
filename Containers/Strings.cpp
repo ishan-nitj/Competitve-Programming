@@ -26,7 +26,7 @@ while(scanf("%d",&a)){
 
 }
 
-For ex. We want to input numbers separated with hyphen.
+For ex. We want to input numbers separated ll hyphen.
 Ex:124-244
 use scanf("%d-%d",&a,&b);
 

@@ -1,6 +1,9 @@
+https://brilliant.org/wiki/sparse-table/  
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+
 
 const int k = 16;
 const int N = 1e5;
