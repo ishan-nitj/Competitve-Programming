@@ -36,7 +36,9 @@ http://codeforces.com/contest/358/problem/D
 
 **dp1[i][j] and dp2[i][j]
 
-** dp where we have only enough space to store prev data
+** dp where we have only enough space to store prev data (i%2)
+
+** knapsack with duplicates
 
 SIC2016  --------> but top down dp
 

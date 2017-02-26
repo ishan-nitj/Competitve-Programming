@@ -2,6 +2,7 @@ Lists:
 Lists can have data of various types.
 
 lst=[[None]*10 for i in range(5)] // for 2d array of size [5][10]
+
 lst=[None]*10 //for 1d array of size [10]
 
 Removing elements from lists:

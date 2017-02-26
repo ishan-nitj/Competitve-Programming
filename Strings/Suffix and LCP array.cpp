@@ -4,6 +4,7 @@
 //1)Finding minimum lexiographic rotation of a string.
 //2)(verify)Finding longest palindromic substring.//concatenate : string +'#'+string_reverse ..Here '#' is assumed to have lowest ascii value.
 //3)Finding the number of occurrences of a pattern.
+//4)S=s1+"#"+s2;
 
 #include <bits/stdc++.h>
 using namespace std;

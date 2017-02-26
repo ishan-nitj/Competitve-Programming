@@ -1,0 +1,93 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define vl vector<ll>
+
+#ifndef ONLINE_JUDGE
+#  define dbg(x) (cerr << #x << " = " << (x) << endl)
+#define dbg2(x,y) (cerr<<#x<<" = "<<x<<" "<<#y<<" = "<<y<<endl)
+#else
+#  define dbg(x) 0
+#define dbg2(x,y) 0
+#endif
+
+#define maxn 1234567
+
+class Seg {
+    struct node {
+        node *l, *r;
+        int cnt;
+        int cl, cr;
+        int tp;
+        node(int cl, int cr) {
+            this->cl = cl;
+            this->cr = cr;
+            l = r = NULL;
+            cnt = 0;
+            tp = -1;
+        }
+        void setInterval(int to) {
+            tp = to;
+            cnt = (cr - cl + 1) * to; 
+        }
+        void push() {
+            if (tp >= 0 && cl != cr) {
+                int mid = (cl + cr) / 2;
+                if (l == NULL)
+                    l = new node(cl, mid);
+                if (r == NULL)
+                    r = new node(mid + 1, cr);
+                l->setInterval(tp);
+                r->setInterval(tp);
+                tp = -1;
+            }
+        }
+        void recal() {
+            push();
+            cnt = (l ? l->cnt : 0) + (r ? r->cnt : 0);
+        }
+    };
+    public:
+    node *top;
+    void updInterval(node *&cnode, int cl, int cr, int al, int ar, int to) {
+        if (cl > ar || al > cr)
+            return;
+        if (cnode == NULL)
+            cnode = new node(cl, cr);
+        cnode->push();
+        if (cl >= al && cr <= ar) {
+            cnode->setInterval(to); 
+            return;
+        }
+        int mid = (cl + cr) / 2;
+        updInterval(cnode->l, cl, mid, al, ar, to);
+        updInterval(cnode->r, mid + 1, cr, al, ar, to);
+        cnode->recal();
+    }
+    int getcnt(node *cnode, int cl, int cr, int al, int ar) {
+        if (cl > ar || al > cr)
+            return 0;
+        if (cnode == NULL)
+            return 0;
+        cnode->push();
+        if (cl >= al && cr <= ar)
+            return cnode->cnt;
+        int mid = (cl + cr) / 2;
+        return getcnt(cnode->l, cl, mid, al, ar) + getcnt(cnode->r, mid + 1, cr, al, ar);
+
+    }
+    Seg() {
+        top = NULL;   
+    }
+    void U(int st, int en, int to) {
+        updInterval(top, 0, maxn, st, en, to);
+    }
+    int Q(int st, int en) {
+        return getcnt(top, 0, maxn, st, en);
+    }
+} seg;
+
+int main(){
+    seg.U(0,1,3);// sets all numbers in range 0 to 1 TO 3
+    dbg(seg.Q(0,1)); //returns sum of numbers from 0 to 1
+}

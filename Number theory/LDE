@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define vl vector<ll>
+ 
+#ifndef ONLINE_JUDGE
+#  define dbg(x) (cerr << #x << " = " << (x) << endl)
+#define dbg2(x,y) (cerr<<#x<<" = "<<x<<" "<<#y<<" = "<<y<<endl)
+#else
+#  define dbg(x) 0
+#define dbg2(x,y) 0
+#endif
+ 
+ll gcdExtended(ll a, ll b, ll *x, ll *y)
+{
+    if (a == 0)
+    {
+        *x = 0, *y = 1;
+        return b;
+    }
+ 
+    ll x1, y1;
+    ll gcd = gcdExtended(b%a, a, &x1, &y1);
+    *x = y1 - (b/a) * x1;
+    *y = x1;
+ 
+    return gcd;
+}
+ 
+int main(){
+    ll x,y;
+    ll a,b,c;cin>>a>>b>>c;
+    if(c%__gcd(a,b)!=0){
+        cout<<-1;
+        return 0;}
+    ll gcd=gcdExtended(a,b,&x,&y); 
+    x*=c;y*=c;
+    x/=gcd;y/=gcd;
+    dbg2(x,y);
+    ll p=b/gcd,q=a/gcd;
+    dbg2(p,q);
+ 
+    //General Soln is x+pk and y-qk
+   
+ 
+}

@@ -65,7 +65,7 @@ return z;
 int main()
 {
 //freopen("IP.txt","r",stdin);
-cout<<ismatch("hollall","all");
+cout<<ismatch("all","holiall");
 }
 
 
