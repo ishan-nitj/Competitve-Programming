@@ -40,6 +40,12 @@ http://codeforces.com/contest/358/problem/D
 
 ** knapsack with duplicates
 
+**return statement is must and check initially if dp states fit the given memory
+
+**recover in dp (recursive dp)--make another function
+
+**reducible to LIS,LCS
+
 SIC2016  --------> but top down dp
 
 DP on trees:

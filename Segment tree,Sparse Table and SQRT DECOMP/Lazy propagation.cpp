@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long
 
-ll tree[4*mag],arr[mag+1];
+ll tree[4*mag],arr[-mag+1];
 
 void build(int node, int start, int end)
 {

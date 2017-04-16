@@ -41,7 +41,7 @@ ll mmi(ll x,ll y){/////////BEWARE !!!!
 return (modexp(x,y-2,y));
 }
 
-ll div1(ll x,ll y){
+ll divide(ll x,ll y){
 return ( (x%MOD)*(mmi(y,MOD)%MOD) )%MOD;
 }
 

@@ -1,3 +1,8 @@
+//donot use distance here.
+
+
+
+
 //http://codeforces.com/blog/entry/11080
 //Ishan Bansal
 //handle:ishan.nitj at codeforces ,ishan_nitj at codechef

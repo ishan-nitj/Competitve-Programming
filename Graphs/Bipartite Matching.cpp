@@ -97,7 +97,6 @@ void solve(){
     for(i=1;i<=n;i++)
         for(j=n+1;j<=n+m;j++){
             if(meet(i,j)){
-                //               cout<<i<<" "<<j<<endl;
                 G[i].emplace_back(j);}
         }
     cout<<hopcroft_karp()<<endl;

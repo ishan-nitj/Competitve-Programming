@@ -8,4 +8,12 @@ https://www.codechef.com/problems/LCPMAX
 
 An easier version of this question is when you have dont have to apply any bijection.This question can then be solved in qlog(n) using :
 Binary search and hashing.
+
+Rabin Karp: Better hashing(Left)
+
+Suffix Array :S1+S2
+
+Suffix tree in O(n^2)
+
+
  

@@ -1,0 +1,5 @@
+http://codeforces.com/contest/768/problem/E
+
+In the problem game of stones ,the state S=(a,mask) :where a is the no of stones left and mask consists of moves already taken.
+
+

@@ -106,3 +106,15 @@ Bidirectional search-left
 Lec-19
 delta(s,v)=min(paths from s to u)+weight(u,v)// works only for DAGS//else loop runs infinite time 
 delta(s,s)=0
+
+
+Notes:
+==>A graph can have vertices with no edges.
+
+==>childCnt[x] doesnot include x
+
+==>Generalized tree: to visualize a tree for all kinds of problems. 3 childrens, 3 brother, 1 parent.
+
+
+
+
