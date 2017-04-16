@@ -1,0 +1,124 @@
+Python Basic Syntax
+==>Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals, as long as the same type of quote starts and ends the string.
+
+The triple quotes are used to span the string across multiple lines. For example, all the following are legal −
+
+word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph. It is
+made up of multiple lines and sentences."""
+
+==>Statements in Python typically end with a new line. Python does, however, allow the use of the line continuation character (\) to denote that the line should continue. For example −
+
+total = item_one + \
+        item_two + \
+        item_three
+
+==>The semicolon ( ; ) allows multiple statements on the single line given that neither statement starts a new code block. Here is a sample snip using the semicolon −
+
+import sys; x = 'foo'; sys.stdout.write(x + '\n')
+
+Python Variable Types
+==>a,b,c = 1,2,"john"
+
+==>The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists. For example −
+
+==>tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+
+print tinydict
+print tinydict.keys()   # Prints all the keys
+print tinydict.values() # Prints all the values
+
+{'dept': 'sales', 'code': 6734, 'name': 'john'}
+['dept', 'code', 'name']
+['sales', 6734, 'john']
+
+Python Basic Operators
+
+==>Pythons membership operators test for membership in a sequence, such as strings, lists, or tuples. There are two membership operators as explained below:
+in and not in
+
+==>Identity operators compare the memory locations of two objects.
+:is	Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.	x is y, here is results in 1 if id(x) equals
+id(y).
+
+
+Python Numbers:
+==>randrange ([start,] stop [,step]):
+A randomly selected element from range(start, stop, step)
+
+==>max(x1,x2,x3......)
+
+String
+==>Python strings are immutable
+
+==>print "My name is %s and weight is %d kg!" % ('Zara', 21) 
+
+==>s = "-";
+seq = ("a", "b", "c"); # This is sequence of strings.
+print s.join( seq )
+
+Tuples
+==>To write a tuple containing a single value you have to include a comma, even though there is only one value -
+
+tup1 = (50,);
+
+==>Any set of multiple objects, comma-separated, written without identifying symbols, i.e., brackets for lists, parentheses for tuples, etc., default to tuples, as 
+indicated in these short examples -
+
+print 'abc', -4.24e93, 18+6.6j, 'xyz'
+x, y = 1, 2;
+print "Value of x , y : ", x,y
+ 
+Dictionary
+==>If we attempt to access a data item with a key, which is not part of the dictionary, we get an error.
+
+==>dict.get(key, default=None)
+
+For key key, returns value or default if key not in dictionary
+
+==>Key must be immutable.
+
+Functions
+==>All parameters (arguments) in the Python language are passed by reference.
+
+==>Variable Length Arguements
+def functionname([formal_args,] *var_args_tuple ):
+   "function_docstring"
+   function_suite
+   return [expression]
+
+==>A return statement with no arguments is the same as return None.
+
+Lists
+==>del,lst.append(),lst.sort(),lst.pop()
+
+Filter,Map,Reduce,List Comprehension
+==>items = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x**2, items))
+
+==>number_list = range(-5, 5)
+less_than_zero = list(filter(lambda x: x < 0, number_list))
+print(less_than_zero)
+
+==>from functools import reduce
+product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+
+==>even_squares = [x**2 for x in range(1,12) if x%2==0]
+print even_squares
+
+Global Variable in Python
+==>You can use a global variable in other functions by declaring it as global in each function that assigns to it:
+
+globvar = 0
+
+def set_globvar_to_one():
+    global globvar    # Needed to modify global copy of globvar
+    globvar = 1
+
+def print_globvar():
+    print(globvar)     # No need for global declaration to read value of globvar
+
+set_globvar_to_one()
+print_globvar()   
+
